@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Daum 크루 미션 현황</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Apple SD Gothic Neo','Malgun Gothic',Arial,sans-serif;background:#f5f4ff;min-height:100vh}
+.wrap{max-width:440px;margin:0 auto;padding:24px 16px 60px}
+.header{text-align:center;margin-bottom:24px}
+.lbl{font-size:11px;color:#9B97C9;letter-spacing:2px;margin-bottom:6px}
+h1{font-size:20px;font-weight:700;color:#2D2A6E}
+.sub{font-size:13px;color:#7B78B0;margin-top:4px}
+.notice{background:#fffbf0;border-left:3px solid #FFB800;border-radius:0 10px 10px 0;padding:12px 14px;margin-bottom:20px;font-size:13px;color:#7B6000;line-height:1.7}
+.sb{display:flex;gap:8px;margin-bottom:20px}
+.sb input{flex:1;padding:12px 16px;border:1.5px solid #D4D2F0;border-radius:12px;font-size:15px;background:#fff;color:#2D2A6E;outline:none}
+.sb input:focus{border-color:#7B6FD0}
+.sb button{padding:12px 18px;background:#7B6FD0;color:#fff;border:none;border-radius:12px;font-size:14px;font-weight:600;cursor:pointer}
+.loading{text-align:center;padding:40px;color:#9B97C9;font-size:14px;display:none}
+.rcard{background:#fff;border-radius:20px;border:2px solid #FFB800;padding:20px;margin-bottom:12px;display:none}
+.rtitle{font-size:13px;font-weight:700;color:#7B6000;margin-bottom:14px}
+.rrow{display:flex;align-items:center;justify-content:space-between;padding:10px 0;border-bottom:1px solid #F5F4FF}
+.rrow:last-child{border-bottom:none}
+.rrow-label{display:flex;align-items:center;gap:8px;font-size:13px;color:#444}
+.rbadge{font-size:11px;padding:3px 8px;border-radius:99px;white-space:nowrap}
+.bok{background:#C6EFCE;color:#276221}.bno{background:#F2F2F2;color:#999}
+.bbest{background:#FFF3CD;color:#856404}.bgeun{background:#E8F4FD;color:#185FA5}
+.ramt{font-size:14px;font-weight:700;color:#2D2A6E}.ramt.zero{color:#ccc}
+.rtotal{background:#FFF8E1;border-radius:12px;padding:14px;margin-top:12px;display:flex;justify-content:space-between;align-items:center}
+.rcumul{background:#F5F4FF;border-radius:12px;padding:12px;margin-top:8px;display:flex;justify-content:space-between;align-items:center}
+.card{background:#fff;border-radius:20px;border:2px solid #7B6FD0;padding:20px;margin-bottom:12px;display:none}
+.top{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.av{width:48px;height:48px;border-radius:50%;background:#EEEDFE;color:#534AB7;font-size:18px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.nn{font-size:17px;font-weight:700;color:#2D2A6E}.ct{font-size:12px;color:#7B6FD0;margin-top:2px}
+.wtabs{display:flex;gap:6px;margin-bottom:14px;overflow-x:auto;padding-bottom:2px}
+.wtabs::-webkit-scrollbar{display:none}
+.wt{padding:7px 14px;border-radius:12px;font-size:12px;font-weight:600;cursor:pointer;white-space:nowrap;border:1.5px solid #D4D2F0;background:#fff;color:#9B97C9;line-height:1.4}
+.wt.on{background:#7B6FD0;color:#fff;border-color:#7B6FD0}
+.vtabs{display:flex;gap:6px;margin-bottom:14px}
+.vt{flex:1;padding:8px;border-radius:10px;font-size:12px;font-weight:600;cursor:pointer;border:1.5px solid #D4D2F0;background:#fff;color:#9B97C9;text-align:center}
+.vt.on{background:#EEEDFE;color:#534AB7;border-color:#7B6FD0}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:14px}
+.st{background:#F5F4FF;border-radius:12px;padding:12px;text-align:center}
+.sl{font-size:11px;color:#9B97C9;margin-bottom:4px}.sv{font-size:22px;font-weight:700;color:#2D2A6E}.ss{font-size:11px;color:#9B97C9;margin-top:2px}
+.pw{margin-bottom:14px}
+.pi{display:flex;justify-content:space-between;font-size:12px;color:#9B97C9;margin-bottom:6px}
+.pt{background:#EEEDFE;border-radius:99px;height:10px;overflow:hidden}
+.pb{height:100%;border-radius:99px;transition:width .5s}
+.sec{background:#F5F4FF;border-radius:12px;padding:14px;margin-bottom:12px}
+.stl{font-size:12px;font-weight:700;color:#7B6FD0;margin-bottom:10px}
+.hr{display:flex;align-items:center;gap:8px;margin-bottom:8px}.hr:last-child{margin-bottom:0}
+.hd{font-size:12px;color:#9B97C9;min-width:58px}
+.hb{flex:1;background:#DDDCF5;border-radius:99px;height:6px;overflow:hidden}
+.hbi{height:100%;border-radius:99px}
+.hv{font-size:12px;font-weight:600;color:#534AB7;min-width:28px;text-align:right}
+.hbg{font-size:10px;padding:2px 6px;border-radius:99px;white-space:nowrap}
+.ok{background:#C6EFCE;color:#276221}.no{background:#FFC7CE;color:#9C0006}
+.nf{text-align:center;padding:24px;background:#fff;border-radius:16px;border:1.5px dashed #D4D2F0;margin-bottom:20px;display:none;color:#9B97C9;font-size:14px;line-height:1.6}
+.dn{font-size:11px;color:#9B97C9;text-align:center;margin-top:16px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="header">
+    <div class="lbl">DAUM COMMUNITY</div>
+    <h1>내 미션 현황</h1>
+    <div class="sub">닉네임을 입력하면 본인 현황을 확인할 수 있어요</div>
+  </div>
+  <div class="notice">
+    미션 기준<br>
+    콘텐츠 크루: 주간 원글 <b>10건</b> 이상<br>
+    리액션 크루: 주간 답글 <b>35건</b> 이상
+  </div>
+  <div class="sb">
+    <input type="text" id="si" placeholder="닉네임을 입력하세요">
+    <button onclick="go()">조회</button>
+  </div>
+  <div class="loading" id="ld">⏳ 데이터 로딩 중...</div>
+  <div class="nf" id="nf">닉네임을 찾을 수 없어요.<br>정확한 닉네임을 입력해주세요.</div>
+  <div class="rcard" id="rc">
+    <div class="rtitle">💰 리워드 현황</div>
+    <div id="rrows"></div>
+    <div class="rtotal"><div style="font-size:12px;color:#856404;font-weight:600">이번 주 합계</div><div style="font-size:20px;font-weight:700;color:#2D2A6E" id="rtotal">-</div></div>
+    <div class="rcumul"><div style="font-size:12px;color:#9B97C9">누적 리워드 (1주차)</div><div style="font-size:16px;font-weight:700;color:#534AB7" id="rcumul">-</div></div>
+  </div>
+  <div class="card" id="mc">
+    <div class="top"><div class="av" id="ma"></div><div><div class="nn" id="mn"></div><div class="ct" id="mct"></div></div></div>
+    <div class="wtabs" id="wt"></div>
+    <div class="vtabs">
+      <div class="vt on" id="btnW" onclick="setView('w')">주간 현황</div>
+      <div class="vt" id="btnD" onclick="setView('d')">일자별 현황</div>
+    </div>
+    <div id="wv">
+      <div class="stats">
+        <div class="st"><div class="sl">이번 주 원글</div><div class="sv" id="mp">-</div><div class="ss" id="mps"></div></div>
+        <div class="st"><div class="sl">이번 주 답글</div><div class="sv" id="mr">-</div><div class="ss" id="mrs"></div></div>
+        <div class="st"><div class="sl">달성률</div><div class="sv" id="mrt">-</div><div class="ss">주간 목표 대비</div></div>
+      </div>
+      <div class="pw"><div class="pi"><span>주간 진행도</span><span id="mpt"></span></div><div class="pt"><div class="pb" id="mb"></div></div></div>
+      <div class="sec"><div class="stl">주차별 기록</div><div id="wh"></div></div>
+    </div>
+    <div id="dv" style="display:none"><div class="sec"><div class="stl" id="dtl">일자별 기록</div><div id="dr"></div></div></div>
+  </div>
+  <div class="dn" id="dn">로딩 중...</div>
+</div>
+<script>
+var D=null,R=null,W=null,CUR=null;
+var sw='',cn='';
+
+// data.json을 fetch로 로드
+fetch('data.json?v=' + Date.now())
+  .then(function(r){return r.json();})
+  .then(function(json){
+    D=json.crew; R=json.reward; W=json.weeks; CUR=json.cur; sw=CUR;
+    document.getElementById('dn').textContent='최종 업데이트: '+json.updated+' · 매일 자정 기준';
+    var un=new URLSearchParams(window.location.search).get('nick')||'';
+    if(un){document.getElementById('si').value=un;cn=un;showCard(un);}
+  })
+  .catch(function(){
+    document.getElementById('dn').textContent='데이터 로딩 실패. 새로고침 해주세요.';
+  });
+
+function gt(c){return c==='콘텐츠'?10:35;}
+function gw(n,w){return(D[n]&&D[n].weeks&&D[n].weeks[w])||{post:0,reply:0};}
+function gd(n){return(D[n]&&D[n].daily)||{};}
+function mv(c,w){return c==='콘텐츠'?w.post:w.reply;}
+function gr(v,t){return Math.min(Math.round(v/t*100),100);}
+function bc(r){return r>=100?'#1D9E75':r>=70?'#7B6FD0':'#E24B4A';}
+function fmt(n){return n.toLocaleString()+'원';}
+document.getElementById('si').addEventListener('keydown',function(e){if(e.key==='Enter')go();});
+function go(){var v=document.getElementById('si').value.trim();cn=v;showCard(v);}
+function showCard(n){
+  if(!D){document.getElementById('ld').style.display='block';return;}
+  var mc=document.getElementById('mc'),nf=document.getElementById('nf'),rc=document.getElementById('rc');
+  document.getElementById('ld').style.display='none';
+  if(!n||!D[n]){mc.style.display='none';rc.style.display='none';nf.style.display=n?'block':'none';return;}
+  nf.style.display='none';mc.style.display='block';sw=CUR;
+  var info=D[n],rw=R[n]||{};
+  document.getElementById('ma').textContent=n.charAt(0);
+  document.getElementById('mn').textContent=n;
+  document.getElementById('mct').textContent=info.crew+' 크루 · 주간 목표 '+gt(info.crew)+'건';
+  renderTabs();renderWeek(n);renderDaily(n);renderReward(rw);
+}
+function renderReward(rw){
+  var rc=document.getElementById('rc');
+  if(!rw||rw.total===undefined){rc.style.display='none';return;}
+  rc.style.display='block';
+  var rows='';
+  rows+='<div class="rrow"><div class="rrow-label"><span class="rbadge '+(rw.mission?'bok':'bno')+'">'+(rw.mission?'✅ 달성':'❌ 미달')+'</span>주간 미션</div><div class="ramt '+(rw.base>0?'':'zero')+'">'+(rw.base>0?fmt(rw.base):'-')+'</div></div>';
+  rows+='<div class="rrow"><div class="rrow-label"><span class="rbadge '+(rw.best?'bbest':'bno')+'">'+(rw.best?'🏆 선정':'— 해당없음')+'</span>주간 베스트</div><div class="ramt '+(rw.best?'':'zero')+'">'+(rw.best?fmt(50000):'-')+'</div></div>';
+  rows+='<div class="rrow"><div class="rrow-label"><span class="rbadge '+(rw.geun?'bgeun':'bno')+'">'+(rw.geun?'🎁 당첨':'— 해당없음')+'</span>개근상</div><div class="ramt '+(rw.geun?'':'zero')+'">'+(rw.geun?fmt(10000):'-')+'</div></div>';
+  document.getElementById('rrows').innerHTML=rows;
+  document.getElementById('rtotal').textContent=fmt(rw.total||0);
+  document.getElementById('rcumul').textContent=fmt(rw.cumul||0);
+}
+function renderTabs(){
+  var el=document.getElementById('wt'),html='',i;
+  for(i=0;i<W.length;i++){html+='<div class="wt'+(W[i]===sw?' on':'')+'" data-wk="'+W[i]+'">'+(i+1)+'주차<br><small style="font-size:10px;font-weight:400">'+W[i]+'</small></div>';}
+  el.innerHTML=html;
+  var tabs=el.querySelectorAll('.wt'),j;
+  for(j=0;j<tabs.length;j++){(function(t){t.addEventListener('click',function(){selW(t.getAttribute('data-wk'));});})(tabs[j]);}
+}
+function selW(wk){
+  sw=wk;
+  var tabs=document.querySelectorAll('.wt'),i;
+  for(i=0;i<tabs.length;i++)tabs[i].classList.toggle('on',tabs[i].getAttribute('data-wk')===wk);
+  renderWeek(cn);renderDaily(cn);
+}
+function renderWeek(n){
+  var info=D[n],wd=gw(n,sw),t=gt(info.crew);
+  var m=mv(info.crew,wd),r=gr(m,t),c=bc(r);
+  document.getElementById('mp').textContent=wd.post+'건';
+  document.getElementById('mps').textContent=info.crew==='콘텐츠'?'목표 '+t+'건':'참고용';
+  document.getElementById('mr').textContent=wd.reply+'건';
+  document.getElementById('mrs').textContent=info.crew==='리액션'?'목표 '+t+'건':'참고용';
+  document.getElementById('mrt').textContent=r+'%';document.getElementById('mrt').style.color=c;
+  document.getElementById('mpt').textContent=m+' / '+t+'건';
+  var mb=document.getElementById('mb');mb.style.width=r+'%';mb.style.background=c;
+  var vals=[],i;
+  for(i=0;i<W.length;i++)vals.push(mv(info.crew,gw(n,W[i])));
+  vals.push(t);
+  var mx=Math.max.apply(null,vals),html='';
+  for(i=0;i<W.length;i++){
+    var wd2=gw(n,W[i]),m2=mv(info.crew,wd2),ok=m2>=t,p=Math.round(m2/mx*100);
+    var bold=W[i]===sw?' style="font-weight:700;color:#2D2A6E"':'';
+    html+='<div class="hr"><div class="hd"'+bold+'>'+(i+1)+'주차 '+W[i]+'</div><div class="hb"><div class="hbi" style="width:'+p+'%;background:'+(ok?'#1D9E75':'#7B6FD0')+';"></div></div><div class="hv">'+m2+'</div><div class="hbg '+(ok?'ok':'no')+'">'+(ok?'달성':'미달')+'</div></div>';
+  }
+  document.getElementById('wh').innerHTML=html;
+}
+function renderDaily(n){
+  var info=D[n],daily=gd(n),t=gt(info.crew);
+  var days=[],k;
+  for(k in daily){if(daily[k].week===sw)days.push(k);}
+  days.sort();
+  document.getElementById('dtl').textContent=sw+' 일자별 기록';
+  if(!days.length){document.getElementById('dr').innerHTML='<div style="text-align:center;padding:16px;color:#9B97C9;font-size:13px">이 주차 활동 기록이 없어요</div>';return;}
+  var vals=[],i;
+  for(i=0;i<days.length;i++)vals.push(mv(info.crew,daily[days[i]]));
+  vals.push(1);
+  var mx=Math.max.apply(null,vals),html='';
+  for(i=0;i<days.length;i++){
+    var v=daily[days[i]],m=mv(info.crew,v),p=Math.round(m/mx*100);
+    html+='<div class="hr"><div class="hd">'+days[i]+'</div><div class="hb"><div class="hbi" style="width:'+p+'%;background:#7B6FD0;"></div></div><div class="hv">'+m+'</div><div style="font-size:11px;color:#9B97C9;min-width:52px">원'+v.post+'·답'+v.reply+'</div></div>';
+  }
+  document.getElementById('dr').innerHTML=html;
+}
+function setView(t){
+  document.getElementById('btnW').classList.toggle('on',t==='w');
+  document.getElementById('btnD').classList.toggle('on',t==='d');
+  document.getElementById('wv').style.display=t==='w'?'block':'none';
+  document.getElementById('dv').style.display=t==='d'?'block':'none';
+}
+</script>
+</body>
+</html>
