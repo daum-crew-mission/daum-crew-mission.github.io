@@ -18,6 +18,7 @@ h1{font-size:20px;font-weight:700;color:#2D2A6E}
 .sb input:focus{border-color:#7B6FD0}
 .sb button{padding:12px 18px;background:#7B6FD0;color:#fff;border:none;border-radius:12px;font-size:14px;font-weight:600;cursor:pointer}
 .nf{text-align:center;padding:24px;background:#fff;border-radius:16px;border:1.5px dashed #D4D2F0;margin-bottom:20px;display:none;color:#9B97C9;font-size:14px;line-height:1.6}
+/* 프로필 카드 */
 .pcard{background:#fff;border-radius:20px;border:2px solid #7B6FD0;padding:20px;margin-bottom:12px;display:none}
 .top{display:flex;align-items:center;gap:12px;margin-bottom:14px}
 .av{width:52px;height:52px;border-radius:50%;background:linear-gradient(135deg,#7B6FD0,#534AB7);color:#fff;font-size:20px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0}
@@ -46,8 +47,14 @@ h1{font-size:20px;font-weight:700;color:#2D2A6E}
 .cal-day{display:flex;flex-direction:column;align-items:center;flex:1;gap:4px}
 .cal-label{font-size:10px;color:#9B97C9}
 .cal-dot{width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700}
+/* 리워드 카드 */
 .rcard{background:#fff;border-radius:20px;border:2px solid #FFB800;padding:20px;margin-bottom:12px;display:none}
-.rtitle{font-size:13px;font-weight:700;color:#7B6000;margin-bottom:14px}
+.rtitle{font-size:13px;font-weight:700;color:#7B6000;margin-bottom:12px}
+/* 리워드 주차 탭 */
+.rtabs{display:flex;gap:6px;margin-bottom:14px}
+.rtab{flex:1;padding:8px;border-radius:10px;font-size:12px;font-weight:600;cursor:pointer;border:1.5px solid #FFE0A0;background:#fff;color:#B8960C;text-align:center;transition:all .15s}
+.rtab.on{background:#FFB800;color:#fff;border-color:#FFB800}
+/* 리워드 행 */
 .rrow{display:flex;align-items:center;justify-content:space-between;padding:10px 0;border-bottom:1px solid #F5F4FF}
 .rrow:last-child{border-bottom:none}
 .rrow-label{display:flex;align-items:center;gap:8px;font-size:13px;color:#444}
@@ -56,8 +63,15 @@ h1{font-size:20px;font-weight:700;color:#2D2A6E}
 .bbest{background:#FFF3CD;color:#856404}.bgeun{background:#E8F4FD;color:#185FA5}
 .bguer{background:#FFF0F5;color:#C0394B}
 .ramt{font-size:14px;font-weight:700;color:#2D2A6E}.ramt.zero{color:#ccc}
-.rtotal{background:#FFF8E1;border-radius:12px;padding:14px;margin-top:12px;display:flex;justify-content:space-between;align-items:center}
-.rcumul{background:#F5F4FF;border-radius:12px;padding:12px;margin-top:8px;display:flex;justify-content:space-between;align-items:center}
+/* 주차 합계 */
+.rwk-total{background:#FFF8E1;border-radius:10px;padding:11px 14px;margin-top:10px;display:flex;justify-content:space-between;align-items:center}
+.rwk-total-label{font-size:12px;color:#856404;font-weight:600}
+.rwk-total-amt{font-size:17px;font-weight:700;color:#2D2A6E}
+/* 누적 합계 - 항상 표시 */
+.rcumul-bar{background:#2D2A6E;border-radius:12px;padding:14px 16px;margin-top:10px;display:flex;justify-content:space-between;align-items:center}
+.rcumul-label{font-size:12px;color:#9B97C9}
+.rcumul-amt{font-size:20px;font-weight:800;color:#FFD700}
+/* 미션 카드 */
 .wtabs{display:flex;gap:6px;margin-bottom:14px;overflow-x:auto;padding-bottom:2px}
 .wtabs::-webkit-scrollbar{display:none}
 .wt{padding:7px 14px;border-radius:12px;font-size:12px;font-weight:600;cursor:pointer;white-space:nowrap;border:1.5px solid #D4D2F0;background:#fff;color:#9B97C9;line-height:1.4}
@@ -101,6 +115,8 @@ h1{font-size:20px;font-weight:700;color:#2D2A6E}
     <button onclick="go()">조회</button>
   </div>
   <div class="nf" id="nf">닉네임을 찾을 수 없어요.<br>정확한 닉네임을 입력해주세요.</div>
+
+  <!-- 프로필 카드 -->
   <div class="pcard" id="pc">
     <div class="top">
       <div class="av" id="pa"></div>
@@ -115,12 +131,31 @@ h1{font-size:20px;font-weight:700;color:#2D2A6E}
     <div class="badges" id="pb"></div>
     <div class="cal-sec"><div class="cal-title" id="cal-title">이번 주 개근 현황</div><div class="cal-row" id="cal-row"></div></div>
   </div>
+
+  <!-- 리워드 카드 (주차 탭 + 누적) -->
   <div class="rcard" id="rc">
     <div class="rtitle">💰 리워드 현황</div>
-    <div id="rrows"></div>
-    <div class="rtotal"><div style="font-size:12px;color:#856404;font-weight:600">이번 주 합계</div><div style="font-size:20px;font-weight:700;color:#2D2A6E" id="rtotal">-</div></div>
-    <div class="rcumul"><div style="font-size:12px;color:#9B97C9">누적 리워드 (1~2주차)</div><div style="font-size:16px;font-weight:700;color:#534AB7" id="rcumul">-</div></div>
+    <div class="rtabs">
+      <div class="rtab on" id="rtab1" onclick="setRwkTab(1)">1주차<br><small style="font-size:10px;font-weight:400">4/20~4/26</small></div>
+      <div class="rtab" id="rtab2" onclick="setRwkTab(2)">2주차<br><small style="font-size:10px;font-weight:400">4/27~5/3</small></div>
+    </div>
+    <!-- 주차별 리워드 내역 -->
+    <div id="rwk1">
+      <div id="rrows1"></div>
+      <div class="rwk-total"><div class="rwk-total-label">1주차 합계</div><div class="rwk-total-amt" id="rtotal1">-</div></div>
+    </div>
+    <div id="rwk2" style="display:none">
+      <div id="rrows2"></div>
+      <div class="rwk-total"><div class="rwk-total-label">2주차 합계</div><div class="rwk-total-amt" id="rtotal2">-</div></div>
+    </div>
+    <!-- 누적 합계 (항상 표시) -->
+    <div class="rcumul-bar">
+      <div><div class="rcumul-label">1~2주차 누적 리워드</div><div style="font-size:10px;color:#7B78B0;margin-top:2px">지급 기준: 직전 주 활동</div></div>
+      <div class="rcumul-amt" id="rcumul">-</div>
+    </div>
   </div>
+
+  <!-- 미션 카드 -->
   <div class="pcard" id="mc" style="border-color:#D4D2F0">
     <div class="wtabs" id="wt"></div>
     <div class="vtabs">
@@ -142,7 +177,7 @@ h1{font-size:20px;font-weight:700;color:#2D2A6E}
 </div>
 <div class="toast" id="toast">링크가 복사됐어요! 🎉</div>
 <script>
-var D=null,R=null,W=null,CUR=null,EX=null,sw='',cn='';
+var D=null,R=null,W=null,CUR=null,EX=null,sw='',cn='',rwkTab=1;
 fetch('data.json?v='+Date.now())
   .then(function(r){return r.json();})
   .then(function(j){
@@ -165,7 +200,7 @@ function go(){var v=document.getElementById('si').value.trim();cn=v;showCard(v);
 function showCard(n){
   var pc=document.getElementById('pc'),mc=document.getElementById('mc'),
       nf=document.getElementById('nf'),rc=document.getElementById('rc');
-  if(!D){return;}
+  if(!D)return;
   if(!n||!D[n]){pc.style.display='none';mc.style.display='none';rc.style.display='none';nf.style.display=n?'block':'none';return;}
   nf.style.display='none';pc.style.display='block';mc.style.display='block';sw=CUR;
   var info=D[n],rw=R[n]||{},ex=EX[n]||{};
@@ -185,7 +220,55 @@ function showCard(n){
   var bmap={m1:'bm',m2:'bm',best1:'bb',best2:'bb',geun1:'bg',geun2:'bg',guer2:'bgr',streak:'bs',top10:'bt'};
   var badges=ex.badges||[];
   document.getElementById('pb').innerHTML=badges.length?badges.map(function(b){return '<span class="badge '+(bmap[b.id]||'be')+'">'+b.icon+' '+b.label+'</span>';}).join(''):'<span class="badge be">아직 획득한 뱃지가 없어요</span>';
-  renderCal(ex);renderReward(rw);renderTabs();renderWeek(n);renderDaily(n);
+  renderCal(ex);
+  renderReward(rw);
+  renderTabs();renderWeek(n);renderDaily(n);
+}
+
+function setRwkTab(t){
+  rwkTab=t;
+  document.getElementById('rtab1').className='rtab'+(t===1?' on':'');
+  document.getElementById('rtab2').className='rtab'+(t===2?' on':'');
+  document.getElementById('rwk1').style.display=t===1?'block':'none';
+  document.getElementById('rwk2').style.display=t===2?'block':'none';
+}
+
+function makeRwkRows(rw, wk){
+  // wk=1: wk1 데이터, wk=2: current 데이터
+  var data = wk===1 ? (rw.wk1||{}) : rw;
+  var rows='';
+  var mission = data.mission||false;
+  var base    = data.base||0;
+  var best    = data.best||false;
+  var geun    = data.geun||false;
+  var guer    = wk===2 ? (rw.guerrilla||false) : false;
+
+  rows+='<div class="rrow"><div class="rrow-label"><span class="rbadge '+(mission?'bok':'bno')+'">'+(mission?'✅ 달성':'❌ 미달')+'</span>주간 미션</div><div class="ramt '+(base>0?'':'zero')+'">'+(base>0?fmt(base):'-')+'</div></div>';
+  rows+='<div class="rrow"><div class="rrow-label"><span class="rbadge '+(best?'bbest':'bno')+'">'+(best?'🏆 선정':'— 해당없음')+'</span>주간 베스트</div><div class="ramt '+(best?'':'zero')+'">'+(best?fmt(50000):'-')+'</div></div>';
+  rows+='<div class="rrow"><div class="rrow-label"><span class="rbadge '+(geun?'bgeun':'bno')+'">'+(geun?'🎁 당첨':'— 해당없음')+'</span>개근상</div><div class="ramt '+(geun?'':'zero')+'">'+(geun?fmt(10000):'-')+'</div></div>';
+  if(wk===2){
+    rows+='<div class="rrow"><div class="rrow-label"><span class="rbadge '+(guer?'bguer':'bno')+'">'+(guer?'🎯 당첨':'— 해당없음')+'</span>게릴라 바운티</div><div class="ramt '+(guer?'':'zero')+'">'+(guer?fmt(10000):'-')+'</div></div>';
+  }
+  return rows;
+}
+
+function renderReward(rw){
+  var rc=document.getElementById('rc');
+  if(!rw||rw.cumul===undefined){rc.style.display='none';return;}
+  rc.style.display='block';
+
+  var wk1 = rw.wk1||{};
+  var wk1total = wk1.total||0;
+  var wk2total = rw.total||0;
+
+  document.getElementById('rrows1').innerHTML = makeRwkRows(rw,1);
+  document.getElementById('rtotal1').textContent = fmt(wk1total);
+  document.getElementById('rrows2').innerHTML = makeRwkRows(rw,2);
+  document.getElementById('rtotal2').textContent = fmt(wk2total);
+  document.getElementById('rcumul').textContent = fmt(rw.cumul||0);
+
+  // 기본 탭은 가장 최근 주차(2주차)로
+  setRwkTab(2);
 }
 
 function renderCal(ex){
@@ -209,19 +292,6 @@ function renderCal(ex){
   document.getElementById('cal-row').innerHTML=html;
 }
 
-function renderReward(rw){
-  var rc=document.getElementById('rc');
-  if(!rw||rw.total===undefined){rc.style.display='none';return;}
-  rc.style.display='block';
-  var rows='';
-  rows+='<div class="rrow"><div class="rrow-label"><span class="rbadge '+(rw.mission?'bok':'bno')+'">'+(rw.mission?'✅ 달성':'❌ 미달')+'</span>주간 미션</div><div class="ramt '+(rw.base>0?'':'zero')+'">'+(rw.base>0?fmt(rw.base):'-')+'</div></div>';
-  rows+='<div class="rrow"><div class="rrow-label"><span class="rbadge '+(rw.best?'bbest':'bno')+'">'+(rw.best?'🏆 선정':'— 해당없음')+'</span>주간 베스트</div><div class="ramt '+(rw.best?'':'zero')+'">'+(rw.best?fmt(50000):'-')+'</div></div>';
-  rows+='<div class="rrow"><div class="rrow-label"><span class="rbadge '+(rw.geun?'bgeun':'bno')+'">'+(rw.geun?'🎁 당첨':'— 해당없음')+'</span>개근상</div><div class="ramt '+(rw.geun?'':'zero')+'">'+(rw.geun?fmt(10000):'-')+'</div></div>';
-  rows+='<div class="rrow"><div class="rrow-label"><span class="rbadge '+(rw.guerrilla?'bguer':'bno')+'">'+(rw.guerrilla?'🎯 당첨':'— 해당없음')+'</span>게릴라 바운티</div><div class="ramt '+(rw.guerrilla?'':'zero')+'">'+(rw.guerrilla?fmt(10000):'-')+'</div></div>';
-  document.getElementById('rrows').innerHTML=rows;
-  document.getElementById('rtotal').textContent=fmt(rw.total||0);
-  document.getElementById('rcumul').textContent=fmt(rw.cumul||0);
-}
 function renderTabs(){
   var el=document.getElementById('wt'),html='',i;
   for(i=0;i<W.length;i++){html+='<div class="wt'+(W[i]===sw?' on':'')+'" data-wk="'+W[i]+'">'+(i+1)+'주차<br><small style="font-size:10px;font-weight:400">'+W[i]+'</small></div>';}
@@ -242,7 +312,8 @@ function renderWeek(n){
   var mb=document.getElementById('mb');mb.style.width=r+'%';mb.style.background=c;
   var vals=[],i;for(i=0;i<W.length;i++)vals.push(mv(info.crew,gw(n,W[i])));vals.push(t);
   var mx=Math.max.apply(null,vals),html='';
-  for(i=0;i<W.length;i++){var wd2=gw(n,W[i]),m2=mv(info.crew,wd2),ok=m2>=t,p=Math.round(m2/mx*100);var bold=W[i]===sw?' style="font-weight:700;color:#2D2A6E"':'';
+  for(i=0;i<W.length;i++){var wd2=gw(n,W[i]),m2=mv(info.crew,wd2),ok=m2>=t,p=Math.round(m2/mx*100);
+    var bold=W[i]===sw?' style="font-weight:700;color:#2D2A6E"':'';
     html+='<div class="hr"><div class="hd"'+bold+'>'+(i+1)+'주차 '+W[i]+'</div><div class="hb"><div class="hbi" style="width:'+p+'%;background:'+(ok?'#1D9E75':'#7B6FD0')+';"></div></div><div class="hv">'+m2+'</div><div class="hbg '+(ok?'ok':'no')+'">'+(ok?'달성':'미달')+'</div></div>';}
   document.getElementById('wh').innerHTML=html;
 }
@@ -257,8 +328,17 @@ function renderDaily(n){
     html+='<div class="hr"><div class="hd">'+days[i]+'</div><div class="hb"><div class="hbi" style="width:'+p+'%;background:#7B6FD0;"></div></div><div class="hv">'+m+'</div><div style="font-size:11px;color:#9B97C9;min-width:52px">원'+v.post+'·답'+v.reply+'</div></div>';}
   document.getElementById('dr').innerHTML=html;
 }
-function setView(t){document.getElementById('btnW').classList.toggle('on',t==='w');document.getElementById('btnD').classList.toggle('on',t==='d');document.getElementById('wv').style.display=t==='w'?'block':'none';document.getElementById('dv').style.display=t==='d'?'block':'none';}
-function copyLink(){var url=window.location.origin+window.location.pathname+'?nick='+encodeURIComponent(cn);if(navigator.clipboard){navigator.clipboard.writeText(url).then(showToast);}else{var ta=document.createElement('textarea');ta.value=url;document.body.appendChild(ta);ta.select();document.execCommand('copy');document.body.removeChild(ta);showToast();}}
+function setView(t){
+  document.getElementById('btnW').classList.toggle('on',t==='w');
+  document.getElementById('btnD').classList.toggle('on',t==='d');
+  document.getElementById('wv').style.display=t==='w'?'block':'none';
+  document.getElementById('dv').style.display=t==='d'?'block':'none';
+}
+function copyLink(){
+  var url=window.location.origin+window.location.pathname+'?nick='+encodeURIComponent(cn);
+  if(navigator.clipboard){navigator.clipboard.writeText(url).then(showToast);}
+  else{var ta=document.createElement('textarea');ta.value=url;document.body.appendChild(ta);ta.select();document.execCommand('copy');document.body.removeChild(ta);showToast();}
+}
 function showToast(){var t=document.getElementById('toast');t.classList.add('show');setTimeout(function(){t.classList.remove('show');},2000);}
 </script>
 </body>
