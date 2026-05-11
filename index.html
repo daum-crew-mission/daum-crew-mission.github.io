@@ -132,25 +132,13 @@ h1{font-size:20px;font-weight:700;color:#2D2A6E}
     <div class="cal-sec"><div class="cal-title" id="cal-title">이번 주 개근 현황</div><div class="cal-row" id="cal-row"></div></div>
   </div>
 
-  <!-- 리워드 카드 (주차 탭 + 누적) -->
+  <!-- 리워드 카드 (동적 주차 탭 + 누적) -->
   <div class="rcard" id="rc">
     <div class="rtitle">💰 리워드 현황</div>
-    <div class="rtabs">
-      <div class="rtab on" id="rtab1" onclick="setRwkTab(1)">1주차<br><small style="font-size:10px;font-weight:400">4/20~4/26</small></div>
-      <div class="rtab" id="rtab2" onclick="setRwkTab(2)">2주차<br><small style="font-size:10px;font-weight:400">4/27~5/3</small></div>
-    </div>
-    <!-- 주차별 리워드 내역 -->
-    <div id="rwk1">
-      <div id="rrows1"></div>
-      <div class="rwk-total"><div class="rwk-total-label">1주차 합계</div><div class="rwk-total-amt" id="rtotal1">-</div></div>
-    </div>
-    <div id="rwk2" style="display:none">
-      <div id="rrows2"></div>
-      <div class="rwk-total"><div class="rwk-total-label">2주차 합계</div><div class="rwk-total-amt" id="rtotal2">-</div></div>
-    </div>
-    <!-- 누적 합계 (항상 표시) -->
+    <div class="rtabs" id="rtabs"></div>
+    <div id="rwk-container"></div>
     <div class="rcumul-bar">
-      <div><div class="rcumul-label">1~2주차 누적 리워드</div><div style="font-size:10px;color:#7B78B0;margin-top:2px">지급 기준: 직전 주 활동</div></div>
+      <div><div class="rcumul-label" id="rcumul-label">누적 리워드</div><div style="font-size:10px;color:#7B78B0;margin-top:2px">지급 기준: 직전 주 활동</div></div>
       <div class="rcumul-amt" id="rcumul">-</div>
     </div>
   </div>
@@ -218,7 +206,7 @@ function showCard(n){
   else if(streak>=4){document.getElementById('ps-sub').textContent='이번 달 완주! 👑';document.getElementById('ps-warn').textContent='';}
   else{document.getElementById('ps-sub').textContent=streak+'주 연속 달성 중';
     document.getElementById('ps-warn').textContent=mr<=2?'⚠ 미달 '+mr+'회 남음':'';}
-  var bmap={m1:'bm',m2:'bm',best1:'bb',best2:'bb',geun1:'bg',geun2:'bg',guer2:'bgr',streak:'bs',top10:'bt'};
+  var bmap={m1:'bm',m2:'bm',m3:'bm',best1:'bb',best2:'bb',best3:'bb',geun1:'bg',geun2:'bg',geun3:'bg',guer2:'bgr',guer3:'bgr',streak:'bs',top10:'bt'};
   var badges=ex.badges||[];
   document.getElementById('pb').innerHTML=badges.length?badges.map(function(b){return '<span class="badge '+(bmap[b.id]||'be')+'">'+b.icon+' '+b.label+'</span>';}).join(''):'<span class="badge be">아직 획득한 뱃지가 없어요</span>';
   renderCal(ex);
@@ -228,26 +216,28 @@ function showCard(n){
 
 function setRwkTab(t){
   rwkTab=t;
-  document.getElementById('rtab1').className='rtab'+(t===1?' on':'');
-  document.getElementById('rtab2').className='rtab'+(t===2?' on':'');
-  document.getElementById('rwk1').style.display=t===1?'block':'none';
-  document.getElementById('rwk2').style.display=t===2?'block':'none';
+  // Find all finalized weeks (exclude current empty week)
+  var fwks=[];for(var i=0;i<W.length;i++){var wn=i+1;var rd=(R[cn]||{})['wk'+wn];if(rd)fwks.push(wn);}
+  for(var j=0;j<fwks.length;j++){
+    var n=fwks[j];
+    var tab=document.getElementById('rtab'+n);if(tab)tab.className='rtab'+(t===n?' on':'');
+    var div=document.getElementById('rwk'+n);if(div)div.style.display=t===n?'block':'none';
+  }
 }
 
 function makeRwkRows(rw, wk){
-  // wk=1: wk1 데이터, wk=2: current 데이터
-  var data = wk===1 ? (rw.wk1||{}) : rw;
+  var data = rw['wk'+wk]||{};
   var rows='';
   var mission = data.mission||false;
   var base    = data.base||0;
   var best    = data.best||false;
   var geun    = data.geun||false;
-  var guer    = wk===2 ? (rw.guerrilla||false) : false;
+  var guer    = data.guerrilla||false;
 
   rows+='<div class="rrow"><div class="rrow-label"><span class="rbadge '+(mission?'bok':'bno')+'">'+(mission?'✅ 달성':'❌ 미달')+'</span>주간 미션</div><div class="ramt '+(base>0?'':'zero')+'">'+(base>0?fmt(base):'-')+'</div></div>';
   rows+='<div class="rrow"><div class="rrow-label"><span class="rbadge '+(best?'bbest':'bno')+'">'+(best?'🏆 선정':'— 해당없음')+'</span>주간 베스트</div><div class="ramt '+(best?'':'zero')+'">'+(best?fmt(50000):'-')+'</div></div>';
   rows+='<div class="rrow"><div class="rrow-label"><span class="rbadge '+(geun?'bgeun':'bno')+'">'+(geun?'🎁 당첨':'— 해당없음')+'</span>개근상</div><div class="ramt '+(geun?'':'zero')+'">'+(geun?fmt(10000):'-')+'</div></div>';
-  if(wk===2){
+  if(wk>=2){
     rows+='<div class="rrow"><div class="rrow-label"><span class="rbadge '+(guer?'bguer':'bno')+'">'+(guer?'🎯 당첨':'— 해당없음')+'</span>게릴라 바운티</div><div class="ramt '+(guer?'':'zero')+'">'+(guer?fmt(10000):'-')+'</div></div>';
   }
   return rows;
@@ -258,18 +248,37 @@ function renderReward(rw){
   if(!rw||rw.cumul===undefined){rc.style.display='none';return;}
   rc.style.display='block';
 
-  var wk1 = rw.wk1||{};
-  var wk1total = wk1.total||0;
-  var wk2total = rw.total||0;
+  // Find finalized weeks (ones that have wkN data)
+  var fwks=[];
+  for(var i=0;i<W.length;i++){var wn=i+1;if(rw['wk'+wn])fwks.push(wn);}
 
-  document.getElementById('rrows1').innerHTML = makeRwkRows(rw,1);
-  document.getElementById('rtotal1').textContent = fmt(wk1total);
-  document.getElementById('rrows2').innerHTML = makeRwkRows(rw,2);
-  document.getElementById('rtotal2').textContent = fmt(wk2total);
-  document.getElementById('rcumul').textContent = fmt(rw.cumul||0);
+  // Build tabs
+  var tabsHtml='';
+  for(var j=0;j<fwks.length;j++){
+    var n=fwks[j];
+    tabsHtml+='<div class="rtab" id="rtab'+n+'" onclick="setRwkTab('+n+')">'+n+'주차<br><small style="font-size:10px;font-weight:400">'+W[n-1]+'</small></div>';
+  }
+  document.getElementById('rtabs').innerHTML=tabsHtml;
 
-  // 기본 탭은 가장 최근 주차(2주차)로
-  setRwkTab(2);
+  // Build content divs
+  var contHtml='';
+  for(var j=0;j<fwks.length;j++){
+    var n=fwks[j];
+    var wkData=rw['wk'+n]||{};
+    contHtml+='<div id="rwk'+n+'" style="display:none">';
+    contHtml+=makeRwkRows(rw,n);
+    contHtml+='<div class="rwk-total"><div class="rwk-total-label">'+n+'주차 합계</div><div class="rwk-total-amt">'+fmt(wkData.total||0)+'</div></div>';
+    contHtml+='</div>';
+  }
+  document.getElementById('rwk-container').innerHTML=contHtml;
+
+  // Cumul
+  var lastWk=fwks.length;
+  document.getElementById('rcumul-label').textContent='1~'+lastWk+'주차 누적 리워드';
+  document.getElementById('rcumul').textContent=fmt(rw.cumul||0);
+
+  // Default tab = last finalized week
+  if(fwks.length>0) setRwkTab(fwks[fwks.length-1]);
 }
 
 function renderCal(ex){
