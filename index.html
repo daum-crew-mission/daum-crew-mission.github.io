@@ -137,10 +137,23 @@ h1{font-size:20px;font-weight:700;color:#2D2A6E}
     <div class="rtitle">💰 리워드 현황</div>
     <div class="rtabs" id="rtabs"></div>
     <div id="rwk-container"></div>
+    <div id="rmonthly" style="margin-top:10px">
+      <div style="display:flex;gap:8px;margin-bottom:8px">
+        <div style="flex:1;background:#F5F4FF;border-radius:10px;padding:12px;text-align:center">
+          <div style="font-size:11px;color:#888">4월 (1~2주차)</div>
+          <div style="font-size:18px;font-weight:700;color:#2D2A6E;margin-top:4px" id="r-apr">-</div>
+        </div>
+        <div style="flex:1;background:#F5F4FF;border-radius:10px;padding:12px;text-align:center">
+          <div style="font-size:11px;color:#888">5월 (3~6주차)</div>
+          <div style="font-size:18px;font-weight:700;color:#2D2A6E;margin-top:4px" id="r-may">-</div>
+        </div>
+      </div>
+    </div>
     <div class="rcumul-bar">
-      <div><div class="rcumul-label" id="rcumul-label">누적 리워드</div><div style="font-size:10px;color:#7B78B0;margin-top:2px">지급 기준: 직전 주 활동</div></div>
+      <div><div class="rcumul-label" id="rcumul-label">전체 누적 리워드</div></div>
       <div class="rcumul-amt" id="rcumul">-</div>
     </div>
+    <div style="font-size:10px;color:#9B97C9;text-align:right;margin-top:6px">※ 실 지급 시 3.3% 세금(소득세 3% + 지방소득세 0.3%) 공제 후 입금됩니다</div>
   </div>
 
   <!-- 미션 카드 -->
@@ -272,9 +285,16 @@ function renderReward(rw){
   }
   document.getElementById('rwk-container').innerHTML=contHtml;
 
+  // Monthly breakdown: April = wk1+wk2, May = wk3+wk4+wk5+wk6
+  var apr = ((rw.wk1||{}).total||0) + ((rw.wk2||{}).total||0);
+  var may = 0;
+  for(var k=3;k<=6;k++){var wkd=rw['wk'+k]||{};may+=(wkd.total||0);}
+  document.getElementById('r-apr').textContent=fmt(apr);
+  document.getElementById('r-may').textContent=fmt(may);
+
   // Cumul
   var lastWk=fwks.length;
-  document.getElementById('rcumul-label').textContent='1~'+lastWk+'주차 누적 리워드';
+  document.getElementById('rcumul-label').textContent='1~'+lastWk+'주차 전체 누적 리워드';
   document.getElementById('rcumul').textContent=fmt(rw.cumul||0);
 
   // Default tab = last finalized week
