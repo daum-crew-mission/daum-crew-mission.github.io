@@ -40,6 +40,7 @@ h1{font-size:20px;font-weight:700;color:#2D2A6E}
 .bs{background:#FFE8E8;color:#C0392B}
 .bt{background:#EEEDFE;color:#534AB7}
 .bgr{background:#FFF0F5;color:#C0394B}
+.ba{background:#E8F0FE;color:#1565C0}
 .be{background:#F5F5F5;color:#999;font-weight:400}
 .cal-sec{background:#F5F4FF;border-radius:14px;padding:14px;margin-bottom:14px}
 .cal-title{font-size:12px;font-weight:700;color:#7B6FD0;margin-bottom:10px}
@@ -51,8 +52,9 @@ h1{font-size:20px;font-weight:700;color:#2D2A6E}
 .rcard{background:#fff;border-radius:20px;border:2px solid #FFB800;padding:20px;margin-bottom:12px;display:none}
 .rtitle{font-size:13px;font-weight:700;color:#7B6000;margin-bottom:12px}
 /* 리워드 주차 탭 */
-.rtabs{display:flex;gap:6px;margin-bottom:14px}
-.rtab{flex:1;padding:8px;border-radius:10px;font-size:12px;font-weight:600;cursor:pointer;border:1.5px solid #FFE0A0;background:#fff;color:#B8960C;text-align:center;transition:all .15s}
+.rtabs{display:flex;gap:6px;margin-bottom:14px;overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:4px}
+.rtabs::-webkit-scrollbar{display:none}
+.rtab{flex:0 0 auto;min-width:60px;padding:8px;border-radius:10px;font-size:12px;font-weight:600;cursor:pointer;border:1.5px solid #FFE0A0;background:#fff;color:#B8960C;text-align:center;transition:all .15s}
 .rtab.on{background:#FFB800;color:#fff;border-color:#FFB800}
 /* 리워드 행 */
 .rrow{display:flex;align-items:center;justify-content:space-between;padding:10px 0;border-bottom:1px solid #F5F4FF}
@@ -219,7 +221,7 @@ function showCard(n){
   else if(streak>=4){document.getElementById('ps-sub').textContent=streak+'주 연속 달성! 대단해요 👑';document.getElementById('ps-warn').textContent='';}
   else{document.getElementById('ps-sub').textContent=streak+'주 연속 달성 중';
     document.getElementById('ps-warn').textContent=mr<=2?'⚠ 미달 '+mr+'회 남음':'';}
-  var bmap={m1:'bm',m2:'bm',m3:'bm',m4:'bm',best1:'bb',best2:'bb',best3:'bb',best4:'bb',geun1:'bg',geun2:'bg',geun3:'bg',geun4:'bg',guer2:'bgr',guer3:'bgr',guer4:'bgr',streak:'bs',top10:'bt'};
+  var bmap={m1:'bm',m2:'bm',m3:'bm',m4:'bm',m5:'bm',best1:'bb',best2:'bb',best3:'bb',best4:'bb',best5:'bb',geun1:'bg',geun2:'bg',geun3:'bg',geun4:'bg',geun5:'bg',guer2:'bgr',guer3:'bgr',guer4:'bgr',guer5:'bgr',acha5:'ba',streak:'bs',top10:'bt'};
   var badges=ex.badges||[];
   document.getElementById('pb').innerHTML=badges.length?badges.map(function(b){return '<span class="badge '+(bmap[b.id]||'be')+'">'+b.icon+' '+b.label+'</span>';}).join(''):'<span class="badge be">아직 획득한 뱃지가 없어요</span>';
   renderCal(ex);
@@ -246,9 +248,11 @@ function makeRwkRows(rw, wk){
   var best    = data.best||false;
   var geun    = data.geun||false;
   var guer    = data.guerrilla||false;
+  var acha    = data.acha||false;
 
   rows+='<div class="rrow"><div class="rrow-label"><span class="rbadge '+(mission?'bok':'bno')+'">'+(mission?'✅ 달성':'❌ 미달')+'</span>주간 미션</div><div class="ramt '+(base>0?'':'zero')+'">'+(base>0?fmt(base):'-')+'</div></div>';
   rows+='<div class="rrow"><div class="rrow-label"><span class="rbadge '+(best?'bbest':'bno')+'">'+(best?'🏆 선정':'— 해당없음')+'</span>주간 베스트</div><div class="ramt '+(best?'':'zero')+'">'+(best?fmt(50000):'-')+'</div></div>';
+  if(acha){rows+='<div class="rrow"><div class="rrow-label"><span class="rbadge ba">🎖️ 선정</span>아차상</div><div class="ramt">'+fmt(20000)+'</div></div>';}
   rows+='<div class="rrow"><div class="rrow-label"><span class="rbadge '+(geun?'bgeun':'bno')+'">'+(geun?'🎁 당첨':'— 해당없음')+'</span>개근상</div><div class="ramt '+(geun?'':'zero')+'">'+(geun?fmt(10000):'-')+'</div></div>';
   if(wk>=2){
     rows+='<div class="rrow"><div class="rrow-label"><span class="rbadge '+(guer?'bguer':'bno')+'">'+(guer?'🎯 당첨':'— 해당없음')+'</span>게릴라 바운티</div><div class="ramt '+(guer?'':'zero')+'">'+(guer?fmt(10000):'-')+'</div></div>';
