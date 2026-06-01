@@ -18,6 +18,11 @@ h1{font-size:20px;font-weight:700;color:#2D2A6E}
 .sb input:focus{border-color:#7B6FD0}
 .sb button{padding:12px 18px;background:#7B6FD0;color:#fff;border:none;border-radius:12px;font-size:14px;font-weight:600;cursor:pointer}
 .nf{text-align:center;padding:24px;background:#fff;border-radius:16px;border:1.5px dashed #D4D2F0;margin-bottom:20px;display:none;color:#9B97C9;font-size:14px;line-height:1.6}
+/* 탈락 카드 */
+.dqcard{background:#fff;border-radius:20px;border:2px solid #E2E2E2;padding:32px 20px;margin-bottom:12px;display:none;text-align:center}
+.dq-icon{font-size:48px;margin-bottom:16px}
+.dq-msg{font-size:15px;font-weight:600;color:#888;line-height:1.7;margin-bottom:8px}
+.dq-sub{font-size:12px;color:#BBB;line-height:1.6}
 /* 프로필 카드 */
 .pcard{background:#fff;border-radius:20px;border:2px solid #7B6FD0;padding:20px;margin-bottom:12px;display:none}
 .top{display:flex;align-items:center;gap:12px;margin-bottom:14px}
@@ -51,6 +56,10 @@ h1{font-size:20px;font-weight:700;color:#2D2A6E}
 /* 리워드 카드 */
 .rcard{background:#fff;border-radius:20px;border:2px solid #FFB800;padding:20px;margin-bottom:12px;display:none}
 .rtitle{font-size:13px;font-weight:700;color:#7B6000;margin-bottom:12px}
+/* 월별 탭 */
+.month-tabs{display:flex;gap:6px;margin-bottom:14px}
+.mt-btn{flex:1;padding:8px;border-radius:10px;font-size:12px;font-weight:600;cursor:pointer;border:1.5px solid #FFE0A0;background:#fff;color:#B8960C;text-align:center;transition:all .15s}
+.mt-btn.on{background:#FFB800;color:#fff;border-color:#FFB800}
 /* 리워드 주차 탭 */
 .rtabs{display:flex;gap:6px;margin-bottom:14px;overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:4px}
 .rtabs::-webkit-scrollbar{display:none}
@@ -69,10 +78,16 @@ h1{font-size:20px;font-weight:700;color:#2D2A6E}
 .rwk-total{background:#FFF8E1;border-radius:10px;padding:11px 14px;margin-top:10px;display:flex;justify-content:space-between;align-items:center}
 .rwk-total-label{font-size:12px;color:#856404;font-weight:600}
 .rwk-total-amt{font-size:17px;font-weight:700;color:#2D2A6E}
-/* 누적 합계 - 항상 표시 */
+/* 월 소계 바 */
+.rmonth-bar{background:#F5F4FF;border-radius:10px;padding:12px 14px;margin-top:10px;display:flex;justify-content:space-between;align-items:center}
+.rmonth-label{font-size:12px;color:#7B6FD0;font-weight:600}
+.rmonth-amt{font-size:18px;font-weight:700;color:#2D2A6E}
+/* 누적 합계 */
 .rcumul-bar{background:#2D2A6E;border-radius:12px;padding:14px 16px;margin-top:10px;display:flex;justify-content:space-between;align-items:center}
 .rcumul-label{font-size:12px;color:#9B97C9}
 .rcumul-amt{font-size:20px;font-weight:800;color:#FFD700}
+/* 6월 준비중 안내 */
+.jun-pending{background:#F0FFF4;border:1.5px dashed #1D9E75;border-radius:12px;padding:20px;text-align:center;color:#0F6E56;font-size:13px;line-height:1.8}
 /* 미션 카드 */
 .wtabs{display:flex;gap:6px;margin-bottom:14px;overflow-x:auto;padding-bottom:2px}
 .wtabs::-webkit-scrollbar{display:none}
@@ -118,6 +133,13 @@ h1{font-size:20px;font-weight:700;color:#2D2A6E}
   </div>
   <div class="nf" id="nf">닉네임을 찾을 수 없어요.<br>정확한 닉네임을 입력해주세요.</div>
 
+  <!-- 탈락 카드 -->
+  <div class="dqcard" id="dqcard">
+    <div class="dq-icon">💙</div>
+    <div class="dq-msg">다음 커뮤니티 크루 자격이 상실됐습니다.<br>그동안 함께 해주셔서 감사합니다.</div>
+    <div class="dq-sub">함께한 시간이 소중했어요.<br>앞으로도 다음 커뮤니티에서 만나요 🙏</div>
+  </div>
+
   <!-- 프로필 카드 -->
   <div class="pcard" id="pc">
     <div class="top">
@@ -134,23 +156,35 @@ h1{font-size:20px;font-weight:700;color:#2D2A6E}
     <div class="cal-sec"><div class="cal-title" id="cal-title">이번 주 개근 현황</div><div class="cal-row" id="cal-row"></div></div>
   </div>
 
-  <!-- 리워드 카드 (동적 주차 탭 + 누적) -->
+  <!-- 리워드 카드 -->
   <div class="rcard" id="rc">
     <div class="rtitle">💰 리워드 현황</div>
-    <div class="rtabs" id="rtabs"></div>
-    <div id="rwk-container"></div>
-    <div id="rmonthly" style="margin-top:10px">
-      <div style="display:flex;gap:8px;margin-bottom:8px">
-        <div style="flex:1;background:#F5F4FF;border-radius:10px;padding:12px;text-align:center">
-          <div style="font-size:11px;color:#888">4월 (1~2주차)</div>
-          <div style="font-size:18px;font-weight:700;color:#2D2A6E;margin-top:4px" id="r-apr">-</div>
-        </div>
-        <div style="flex:1;background:#F5F4FF;border-radius:10px;padding:12px;text-align:center">
-          <div style="font-size:11px;color:#888">5월 (3~6주차)</div>
-          <div style="font-size:18px;font-weight:700;color:#2D2A6E;margin-top:4px" id="r-may">-</div>
-        </div>
-      </div>
+    <!-- 월별 탭: 4월 / 5월 / 6월 -->
+    <div class="month-tabs">
+      <div class="mt-btn" id="mt-apr" onclick="setMonthTab('apr')">4월<br><small style="font-size:10px;font-weight:400">1~2주차</small></div>
+      <div class="mt-btn on" id="mt-may" onclick="setMonthTab('may')">5월<br><small style="font-size:10px;font-weight:400">3~6주차</small></div>
+      <div class="mt-btn" id="mt-jun" onclick="setMonthTab('jun')">6월<br><small style="font-size:10px;font-weight:400">7~10주차</small></div>
     </div>
+
+    <!-- 4월 섹션 (wk1~wk2) -->
+    <div id="sec-apr" style="display:none">
+      <div class="rtabs" id="rtabs-apr"></div>
+      <div id="rwk-container-apr"></div>
+      <div class="rmonth-bar"><div class="rmonth-label">4월 합계 (1~2주차)</div><div class="rmonth-amt" id="r-apr">-</div></div>
+    </div>
+
+    <!-- 5월 섹션 (wk3~wk6) -->
+    <div id="sec-may" style="display:block">
+      <div class="rtabs" id="rtabs-may"></div>
+      <div id="rwk-container-may"></div>
+      <div class="rmonth-bar"><div class="rmonth-label">5월 합계 (3~6주차)</div><div class="rmonth-amt" id="r-may">-</div></div>
+    </div>
+
+    <!-- 6월 섹션 (wk7~wk10) -->
+    <div id="sec-jun" style="display:none">
+      <div id="jun-content"></div>
+    </div>
+
     <div class="rcumul-bar">
       <div><div class="rcumul-label" id="rcumul-label">전체 누적 리워드</div></div>
       <div class="rcumul-amt" id="rcumul">-</div>
@@ -180,7 +214,7 @@ h1{font-size:20px;font-weight:700;color:#2D2A6E}
 </div>
 <div class="toast" id="toast">링크가 복사됐어요! 🎉</div>
 <script>
-var D=null,R=null,W=null,CUR=null,EX=null,sw='',cn='',rwkTab=1;
+var D=null,R=null,W=null,CUR=null,EX=null,sw='',cn='',rwkTab=1,curMonthTab='may';
 fetch('data.json?v='+Date.now())
   .then(function(r){return r.json();})
   .then(function(j){
@@ -202,11 +236,22 @@ function go(){var v=document.getElementById('si').value.trim();cn=v;showCard(v);
 
 function showCard(n){
   var pc=document.getElementById('pc'),mc=document.getElementById('mc'),
-      nf=document.getElementById('nf'),rc=document.getElementById('rc');
+      nf=document.getElementById('nf'),rc=document.getElementById('rc'),
+      dqcard=document.getElementById('dqcard');
+  pc.style.display='none';mc.style.display='none';rc.style.display='none';
+  nf.style.display='none';dqcard.style.display='none';
   if(!D)return;
-  if(!n||!D[n]){pc.style.display='none';mc.style.display='none';rc.style.display='none';nf.style.display=n?'block':'none';return;}
+  if(!n||!D[n]){nf.style.display=n?'block':'none';return;}
+
+  // 탈락자 체크
+  var ex=EX[n]||{};
+  if(ex.disqualified){
+    dqcard.style.display='block';
+    return;
+  }
+
   nf.style.display='none';pc.style.display='block';mc.style.display='block';sw=CUR;
-  var info=D[n],rw=R[n]||{},ex=EX[n]||{};
+  var info=D[n],rw=R[n]||{};
   document.getElementById('pa').textContent=n.charAt(0);
   document.getElementById('pn').textContent=n;
   document.getElementById('pt2').textContent=info.crew+' 크루 · 주간 목표 '+gt(info.crew)+'건';
@@ -219,9 +264,8 @@ function showCard(n){
   var mr=ex.miss_remain!==undefined?ex.miss_remain:2;
   if(streak===0){document.getElementById('ps-sub').textContent='이번 주 첫 도전!';document.getElementById('ps-warn').textContent=mr<2?'⚠ 미달 '+mr+'회 남음':'';}
   else if(streak>=4){document.getElementById('ps-sub').textContent=streak+'주 연속 달성! 대단해요 👑';document.getElementById('ps-warn').textContent='';}
-  else{document.getElementById('ps-sub').textContent=streak+'주 연속 달성 중';
-    document.getElementById('ps-warn').textContent=mr<=2?'⚠ 미달 '+mr+'회 남음':'';}
-  var bmap={m1:'bm',m2:'bm',m3:'bm',m4:'bm',m5:'bm',best1:'bb',best2:'bb',best3:'bb',best4:'bb',best5:'bb',geun1:'bg',geun2:'bg',geun3:'bg',geun4:'bg',geun5:'bg',guer2:'bgr',guer3:'bgr',guer4:'bgr',guer5:'bgr',acha5:'ba',streak:'bs',top10:'bt'};
+  else{document.getElementById('ps-sub').textContent=streak+'주 연속 달성 중';document.getElementById('ps-warn').textContent=mr<=2?'⚠ 미달 '+mr+'회 남음':'';}
+  var bmap={m1:'bm',m2:'bm',m3:'bm',m4:'bm',m5:'bm',m6:'bm',best1:'bb',best2:'bb',best3:'bb',best4:'bb',best5:'bb',best6:'bb',geun1:'bg',geun2:'bg',geun3:'bg',geun4:'bg',geun5:'bg',geun6:'bg',guer2:'bgr',guer3:'bgr',guer4:'bgr',guer5:'bgr',guer6:'bgr',acha5:'ba',acha6:'ba',streak:'bs',top10:'bt'};
   var badges=ex.badges||[];
   document.getElementById('pb').innerHTML=badges.length?badges.map(function(b){return '<span class="badge '+(bmap[b.id]||'be')+'">'+b.icon+' '+b.label+'</span>';}).join(''):'<span class="badge be">아직 획득한 뱃지가 없어요</span>';
   renderCal(ex);
@@ -229,85 +273,109 @@ function showCard(n){
   renderTabs();renderWeek(n);renderDaily(n);
 }
 
-function setRwkTab(t){
-  rwkTab=t;
-  // Find all finalized weeks (exclude current empty week)
-  var fwks=[];for(var i=0;i<W.length;i++){var wn=i+1;var rd=(R[cn]||{})['wk'+wn];if(rd)fwks.push(wn);}
-  for(var j=0;j<fwks.length;j++){
-    var n=fwks[j];
-    var tab=document.getElementById('rtab'+n);if(tab)tab.className='rtab'+(t===n?' on':'');
-    var div=document.getElementById('rwk'+n);if(div)div.style.display=t===n?'block':'none';
-  }
-}
-
-function makeRwkRows(rw, wk){
-  var data = rw['wk'+wk]||{};
+/* ===== 리워드 렌더링 ===== */
+function makeRwkRows(rw,wk){
+  var data=rw['wk'+wk]||{};
   var rows='';
-  var mission = data.mission||false;
-  var base    = data.base||0;
-  var best    = data.best||false;
-  var geun    = data.geun||false;
-  var guer    = data.guerrilla||false;
-  var acha    = data.acha||false;
-
+  var mission=data.mission||false;
+  var base=data.base||0;
+  var best=data.best||false;
+  var geun=data.geun||false;
+  var guer=data.guerrilla||false;
+  var acha=data.acha||false;
   rows+='<div class="rrow"><div class="rrow-label"><span class="rbadge '+(mission?'bok':'bno')+'">'+(mission?'✅ 달성':'❌ 미달')+'</span>주간 미션</div><div class="ramt '+(base>0?'':'zero')+'">'+(base>0?fmt(base):'-')+'</div></div>';
   rows+='<div class="rrow"><div class="rrow-label"><span class="rbadge '+(best?'bbest':'bno')+'">'+(best?'🏆 선정':'— 해당없음')+'</span>주간 베스트</div><div class="ramt '+(best?'':'zero')+'">'+(best?fmt(50000):'-')+'</div></div>';
   if(acha){rows+='<div class="rrow"><div class="rrow-label"><span class="rbadge ba">🎖️ 선정</span>아차상</div><div class="ramt">'+fmt(20000)+'</div></div>';}
   rows+='<div class="rrow"><div class="rrow-label"><span class="rbadge '+(geun?'bgeun':'bno')+'">'+(geun?'🎁 당첨':'— 해당없음')+'</span>개근상</div><div class="ramt '+(geun?'':'zero')+'">'+(geun?fmt(10000):'-')+'</div></div>';
-  if(wk>=2){
-    rows+='<div class="rrow"><div class="rrow-label"><span class="rbadge '+(guer?'bguer':'bno')+'">'+(guer?'🎯 당첨':'— 해당없음')+'</span>게릴라 바운티</div><div class="ramt '+(guer?'':'zero')+'">'+(guer?fmt(10000):'-')+'</div></div>';
-  }
+  if(wk>=2){rows+='<div class="rrow"><div class="rrow-label"><span class="rbadge '+(guer?'bguer':'bno')+'">'+(guer?'🎯 당첨':'— 해당없음')+'</span>게릴라 바운티</div><div class="ramt '+(guer?'':'zero')+'">'+(guer?fmt(10000):'-')+'</div></div>';}
   return rows;
+}
+
+function buildWkSection(rw, wkNums, tabsId, containerId){
+  var fwks=[];
+  for(var i=0;i<wkNums.length;i++){var wn=wkNums[i];if(rw['wk'+wn])fwks.push(wn);}
+  var tabsHtml='',contHtml='';
+  for(var j=0;j<fwks.length;j++){
+    var n=fwks[j];
+    tabsHtml+='<div class="rtab" id="rtab'+n+'" onclick="setRwkTab('+n+')">'+n+'주차<br><small style="font-size:10px;font-weight:400">'+W[n-1]+'</small></div>';
+    contHtml+='<div id="rwk'+n+'" style="display:none">'+makeRwkRows(rw,n)+'<div class="rwk-total"><div class="rwk-total-label">'+n+'주차 합계</div><div class="rwk-total-amt">'+fmt((rw['wk'+n]||{}).total||0)+'</div></div></div>';
+  }
+  document.getElementById(tabsId).innerHTML=tabsHtml;
+  document.getElementById(containerId).innerHTML=contHtml;
+  return fwks;
 }
 
 function renderReward(rw){
   var rc=document.getElementById('rc');
-  if(!rw||rw.cumul===undefined){rc.style.display='none';return;}
+  if(!rw){rc.style.display='none';return;}
   rc.style.display='block';
 
-  // Find finalized weeks (ones that have wkN data)
-  var fwks=[];
-  for(var i=0;i<W.length;i++){var wn=i+1;if(rw['wk'+wn])fwks.push(wn);}
-
-  // Build tabs
-  var tabsHtml='';
-  for(var j=0;j<fwks.length;j++){
-    var n=fwks[j];
-    tabsHtml+='<div class="rtab" id="rtab'+n+'" onclick="setRwkTab('+n+')">'+n+'주차<br><small style="font-size:10px;font-weight:400">'+W[n-1]+'</small></div>';
-  }
-  document.getElementById('rtabs').innerHTML=tabsHtml;
-
-  // Build content divs
-  var contHtml='';
-  for(var j=0;j<fwks.length;j++){
-    var n=fwks[j];
-    var wkData=rw['wk'+n]||{};
-    contHtml+='<div id="rwk'+n+'" style="display:none">';
-    contHtml+=makeRwkRows(rw,n);
-    contHtml+='<div class="rwk-total"><div class="rwk-total-label">'+n+'주차 합계</div><div class="rwk-total-amt">'+fmt(wkData.total||0)+'</div></div>';
-    contHtml+='</div>';
-  }
-  document.getElementById('rwk-container').innerHTML=contHtml;
-
-  // Monthly breakdown: April = wk1+wk2, May = wk3+wk4+wk5+wk6
-  var apr = ((rw.wk1||{}).total||0) + ((rw.wk2||{}).total||0);
-  var may = 0;
-  for(var k=3;k<=6;k++){var wkd=rw['wk'+k]||{};may+=(wkd.total||0);}
+  // 4월 (wk1~2)
+  var aprWks=buildWkSection(rw,[1,2],'rtabs-apr','rwk-container-apr');
+  var apr=((rw.wk1||{}).total||0)+((rw.wk2||{}).total||0);
   document.getElementById('r-apr').textContent=fmt(apr);
-  document.getElementById('r-may').textContent=fmt(may);
+  if(aprWks.length>0) setRwkTab(aprWks[aprWks.length-1]);
 
-  // Cumul
-  var lastWk=fwks.length;
+  // 5월 (wk3~6)
+  var mayWks=buildWkSection(rw,[3,4,5,6],'rtabs-may','rwk-container-may');
+  var may=0;for(var k=3;k<=6;k++){may+=((rw['wk'+k]||{}).total||0);}
+  document.getElementById('r-may').textContent=fmt(may);
+  if(mayWks.length>0) setRwkTab(mayWks[mayWks.length-1]);
+
+  // 6월 (wk7~10) - 진행중이면 데이터 표시, 없으면 준비중
+  var junWks=[];
+  for(var j=7;j<=10;j++){if(rw['wk'+j])junWks.push(j);}
+  var junHtml='';
+  if(junWks.length>0){
+    var junTabs='',junCont='';
+    for(var ji=0;ji<junWks.length;ji++){
+      var jn=junWks[ji];
+      junTabs+='<div class="rtab" id="rtab'+jn+'" onclick="setRwkTab('+jn+')">'+jn+'주차<br><small style="font-size:10px;font-weight:400">'+(W[jn-1]||'')+'</small></div>';
+      junCont+='<div id="rwk'+jn+'" style="display:none">'+makeRwkRows(rw,jn)+'<div class="rwk-total"><div class="rwk-total-label">'+jn+'주차 합계</div><div class="rwk-total-amt">'+fmt((rw['wk'+jn]||{}).total||0)+'</div></div></div>';
+    }
+    junHtml='<div class="rtabs" id="rtabs-jun">'+junTabs+'</div><div id="rwk-container-jun">'+junCont+'</div>';
+    var jun=0;for(var jk=7;jk<=10;jk++){jun+=((rw['wk'+jk]||{}).total||0);}
+    junHtml+='<div class="rmonth-bar"><div class="rmonth-label">6월 합계 (7~10주차)</div><div class="rmonth-amt">'+fmt(jun)+'</div></div>';
+    if(junWks.length>0){setTimeout(function(){setRwkTab(junWks[junWks.length-1]);},0);}
+  } else {
+    junHtml='<div class="jun-pending">🌱 6월 미션이 시작됐어요!<br><b>7주차(6/1~6/7)</b>부터 활동 내역이 반영됩니다.<br><br>지급일: <b>7월 15일</b> (7~10주차 합산)</div>';
+  }
+  document.getElementById('jun-content').innerHTML=junHtml;
+
+  // 누적
+  var lastWk=0;for(var i=1;i<=10;i++){if(rw['wk'+i])lastWk=i;}
   document.getElementById('rcumul-label').textContent='1~'+lastWk+'주차 전체 누적 리워드';
   document.getElementById('rcumul').textContent=fmt(rw.cumul||0);
 
-  // Default tab = last finalized week
-  if(fwks.length>0) setRwkTab(fwks[fwks.length-1]);
+  // 기본 탭: 5월
+  setMonthTab('may');
 }
 
+function setMonthTab(m){
+  curMonthTab=m;
+  ['apr','may','jun'].forEach(function(t){
+    document.getElementById('mt-'+t).classList.toggle('on',t===m);
+    document.getElementById('sec-'+t).style.display=t===m?'block':'none';
+  });
+  // 각 탭의 마지막 주차로 포커스
+  var rw=R[cn]||{};
+  if(m==='apr'){var aw=[];for(var i=1;i<=2;i++){if(rw['wk'+i])aw.push(i);}if(aw.length)setRwkTab(aw[aw.length-1]);}
+  else if(m==='may'){var mw=[];for(var i=3;i<=6;i++){if(rw['wk'+i])mw.push(i);}if(mw.length)setRwkTab(mw[mw.length-1]);}
+  else if(m==='jun'){var jw=[];for(var i=7;i<=10;i++){if(rw['wk'+i])jw.push(i);}if(jw.length)setRwkTab(jw[jw.length-1]);}
+}
+
+function setRwkTab(t){
+  rwkTab=t;
+  for(var i=1;i<=10;i++){
+    var tab=document.getElementById('rtab'+i);if(tab)tab.className='rtab'+(t===i?' on':'');
+    var div=document.getElementById('rwk'+i);if(div)div.style.display=t===i?'block':'none';
+  }
+}
+
+/* ===== 캘린더 ===== */
 function renderCal(ex){
   var labels=['월','화','수','목','금','토','일'];
-  var dates=ex.wk_dates||['04/27','04/28','04/29','04/30','05/01','05/02','05/03'];
+  var dates=ex.wk_dates||['06/01','06/02','06/03','06/04','06/05','06/06','06/07'];
   var gd2=ex.geun_days||{};
   var today=dates[dates.length-1];
   var done=0,html='';
@@ -326,6 +394,7 @@ function renderCal(ex){
   document.getElementById('cal-row').innerHTML=html;
 }
 
+/* ===== 미션 탭/뷰 ===== */
 function renderTabs(){
   var el=document.getElementById('wt'),html='',i;
   for(i=0;i<W.length;i++){html+='<div class="wt'+(W[i]===sw?' on':'')+'" data-wk="'+W[i]+'">'+(i+1)+'주차<br><small style="font-size:10px;font-weight:400">'+W[i]+'</small></div>';}
