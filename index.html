@@ -162,8 +162,8 @@ h1{font-size:20px;font-weight:700;color:#2D2A6E}
     <!-- 월별 탭: 4월 / 5월 / 6월 -->
     <div class="month-tabs">
       <div class="mt-btn" id="mt-apr" onclick="setMonthTab('apr')">4월<br><small style="font-size:10px;font-weight:400">1~2주차</small></div>
-      <div class="mt-btn on" id="mt-may" onclick="setMonthTab('may')">5월<br><small style="font-size:10px;font-weight:400">3~6주차</small></div>
-      <div class="mt-btn" id="mt-jun" onclick="setMonthTab('jun')">6월<br><small style="font-size:10px;font-weight:400">7~10주차</small></div>
+      <div class="mt-btn" id="mt-may" onclick="setMonthTab('may')">5월<br><small style="font-size:10px;font-weight:400">3~6주차</small></div>
+      <div class="mt-btn on" id="mt-jun" onclick="setMonthTab('jun')">6월<br><small style="font-size:10px;font-weight:400">7~10주차</small></div>
     </div>
 
     <!-- 4월 섹션 (wk1~wk2) -->
@@ -174,14 +174,14 @@ h1{font-size:20px;font-weight:700;color:#2D2A6E}
     </div>
 
     <!-- 5월 섹션 (wk3~wk6) -->
-    <div id="sec-may" style="display:block">
+    <div id="sec-may" style="display:none">
       <div class="rtabs" id="rtabs-may"></div>
       <div id="rwk-container-may"></div>
       <div class="rmonth-bar"><div class="rmonth-label">5월 합계 (3~6주차)</div><div class="rmonth-amt" id="r-may">-</div></div>
     </div>
 
     <!-- 6월 섹션 (wk7~wk10) -->
-    <div id="sec-jun" style="display:none">
+    <div id="sec-jun" style="display:block">
       <div id="jun-content"></div>
     </div>
 
@@ -214,7 +214,7 @@ h1{font-size:20px;font-weight:700;color:#2D2A6E}
 </div>
 <div class="toast" id="toast">링크가 복사됐어요! 🎉</div>
 <script>
-var D=null,R=null,W=null,CUR=null,EX=null,sw='',cn='',rwkTab=1,curMonthTab='may';
+var D=null,R=null,W=null,CUR=null,EX=null,sw='',cn='',rwkTab=1,curMonthTab='jun';
 fetch('data.json?v='+Date.now())
   .then(function(r){return r.json();})
   .then(function(j){
@@ -265,7 +265,7 @@ function showCard(n){
   if(streak===0){document.getElementById('ps-sub').textContent='이번 주 첫 도전!';document.getElementById('ps-warn').textContent=mr<2?'⚠ 미달 '+mr+'회 남음':'';}
   else if(streak>=4){document.getElementById('ps-sub').textContent=streak+'주 연속 달성! 대단해요 👑';document.getElementById('ps-warn').textContent='';}
   else{document.getElementById('ps-sub').textContent=streak+'주 연속 달성 중';document.getElementById('ps-warn').textContent=mr<=2?'⚠ 미달 '+mr+'회 남음':'';}
-  var bmap={m1:'bm',m2:'bm',m3:'bm',m4:'bm',m5:'bm',m6:'bm',best1:'bb',best2:'bb',best3:'bb',best4:'bb',best5:'bb',best6:'bb',geun1:'bg',geun2:'bg',geun3:'bg',geun4:'bg',geun5:'bg',geun6:'bg',guer2:'bgr',guer3:'bgr',guer4:'bgr',guer5:'bgr',guer6:'bgr',acha5:'ba',acha6:'ba',streak:'bs',top10:'bt'};
+  var bmap={m1:'bm',m2:'bm',m3:'bm',m4:'bm',m5:'bm',m6:'bm',m7:'bm',best1:'bb',best2:'bb',best3:'bb',best4:'bb',best5:'bb',best6:'bb',best7:'bb',geun1:'bg',geun2:'bg',geun3:'bg',geun4:'bg',geun5:'bg',geun6:'bg',geun7:'bg',guer2:'bgr',guer3:'bgr',guer4:'bgr',guer5:'bgr',guer6:'bgr',acha5:'ba',acha6:'ba',acha7:'ba',streak:'bs',top10:'bt'};
   var badges=ex.badges||[];
   document.getElementById('pb').innerHTML=badges.length?badges.map(function(b){return '<span class="badge '+(bmap[b.id]||'be')+'">'+b.icon+' '+b.label+'</span>';}).join(''):'<span class="badge be">아직 획득한 뱃지가 없어요</span>';
   renderCal(ex);
@@ -347,8 +347,8 @@ function renderReward(rw){
   document.getElementById('rcumul-label').textContent='1~'+lastWk+'주차 전체 누적 리워드';
   document.getElementById('rcumul').textContent=fmt(rw.cumul||0);
 
-  // 기본 탭: 5월
-  setMonthTab('may');
+  // 기본 탭: 6월
+  setMonthTab('jun');
 }
 
 function setMonthTab(m){
