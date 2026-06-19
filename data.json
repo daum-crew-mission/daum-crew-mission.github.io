@@ -120972,7 +120972,7 @@
         "acha": false,
         "total": 37500
       },
-      "cumul": 380000,
+      "cumul": 390000,
       "wk6": {
         "mission": true,
         "base": 37500,
@@ -121006,8 +121006,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 0
+        "guerrilla": true,
+        "total": 10000,
+        "guer_amt": 10000
       }
     },
     "어제날씨매우흐림": {
@@ -123489,7 +123490,7 @@
         "acha": false,
         "total": 25000
       },
-      "cumul": 150000,
+      "cumul": 165000,
       "wk6": {
         "mission": false,
         "base": 0,
@@ -123523,8 +123524,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 0
+        "guerrilla": true,
+        "total": 15000,
+        "guer_amt": 15000
       }
     },
     "pluto": {
@@ -124577,7 +124579,7 @@
         "acha": false,
         "total": 37500
       },
-      "cumul": 300000,
+      "cumul": 315000,
       "wk6": {
         "mission": true,
         "base": 37500,
@@ -124611,8 +124613,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 0
+        "guerrilla": true,
+        "total": 15000,
+        "guer_amt": 15000
       }
     },
     "프로직장인": {
@@ -125112,7 +125115,7 @@
         "acha": false,
         "total": 47500
       },
-      "cumul": 380000,
+      "cumul": 390000,
       "wk6": {
         "mission": true,
         "base": 37500,
@@ -125146,8 +125149,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 0
+        "guerrilla": true,
+        "total": 10000,
+        "guer_amt": 10000
       }
     },
     "시간마술사까미": {
@@ -126981,7 +126985,7 @@
         "acha": false,
         "total": 35000
       },
-      "cumul": 340000,
+      "cumul": 360000,
       "wk6": {
         "mission": true,
         "base": 25000,
@@ -127015,8 +127019,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 0
+        "guerrilla": true,
+        "total": 20000,
+        "guer_amt": 20000
       }
     },
     "별난바": {
@@ -131306,7 +131311,7 @@
         "acha": false,
         "total": 25000
       },
-      "cumul": 220000,
+      "cumul": 235000,
       "wk6": {
         "mission": true,
         "base": 25000,
@@ -131340,8 +131345,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 0
+        "guerrilla": true,
+        "total": 15000,
+        "guer_amt": 15000
       }
     },
     "이영": {
@@ -133753,7 +133759,7 @@
         "acha": true,
         "total": 57500
       },
-      "cumul": 410000,
+      "cumul": 420000,
       "wk6": {
         "mission": true,
         "base": 37500,
@@ -133787,8 +133793,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 0
+        "guerrilla": true,
+        "total": 10000,
+        "guer_amt": 10000
       }
     },
     "리짜이": {
@@ -135674,7 +135681,7 @@
         "acha": false,
         "total": 25000
       },
-      "cumul": 230000,
+      "cumul": 245000,
       "wk6": {
         "mission": true,
         "base": 25000,
@@ -135708,8 +135715,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 0
+        "guerrilla": true,
+        "total": 15000,
+        "guer_amt": 15000
       }
     },
     "사랑": {
@@ -136069,7 +136077,7 @@
         "acha": false,
         "total": 87500
       },
-      "cumul": 620000,
+      "cumul": 630000,
       "wk6": {
         "mission": true,
         "base": 37500,
@@ -136103,8 +136111,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 0
+        "guerrilla": true,
+        "total": 10000,
+        "guer_amt": 10000
       }
     },
     "랑은": {
@@ -137473,7 +137482,7 @@
         "acha": false,
         "total": 25000
       },
-      "cumul": 250000,
+      "cumul": 265000,
       "wk6": {
         "mission": true,
         "base": 25000,
@@ -137507,8 +137516,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 0
+        "guerrilla": true,
+        "total": 15000,
+        "guer_amt": 15000
       }
     },
     "박씨부인이씨": {
@@ -138105,7 +138115,7 @@
         "acha": false,
         "total": 35000
       },
-      "cumul": 210000,
+      "cumul": 220000,
       "wk6": {
         "mission": true,
         "base": 25000,
@@ -138139,8 +138149,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 0
+        "guerrilla": true,
+        "total": 10000,
+        "guer_amt": 10000
       }
     },
     "밍구망구": {
@@ -138342,7 +138353,7 @@
         "acha": false,
         "total": 47500
       },
-      "cumul": 350000,
+      "cumul": 370000,
       "wk6": {
         "mission": true,
         "base": 37500,
@@ -138376,8 +138387,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 0
+        "guerrilla": true,
+        "total": 20000,
+        "guer_amt": 20000
       }
     },
     "뚝딱이걸리버": {
@@ -140999,7 +141011,7 @@
         "acha": false,
         "total": 47500
       },
-      "cumul": 340000,
+      "cumul": 370000,
       "wk6": {
         "mission": true,
         "base": 37500,
@@ -141033,8 +141045,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 0
+        "guerrilla": true,
+        "total": 30000,
+        "guer_amt": 30000
       }
     },
     "김진짜": {
@@ -143419,7 +143432,7 @@
         "acha": false,
         "total": 25000
       },
-      "cumul": 220000,
+      "cumul": 230000,
       "wk6": {
         "mission": true,
         "base": 25000,
@@ -143453,8 +143466,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 0
+        "guerrilla": true,
+        "total": 10000,
+        "guer_amt": 10000
       }
     },
     "오쩌네": {
@@ -144690,7 +144704,7 @@
         "acha": false,
         "total": 25000
       },
-      "cumul": 205000,
+      "cumul": 215000,
       "wk6": {
         "mission": true,
         "base": 25000,
@@ -144724,8 +144738,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 0
+        "guerrilla": true,
+        "total": 10000,
+        "guer_amt": 10000
       }
     },
     "이뭉": {
@@ -145803,7 +145818,7 @@
         "acha": false,
         "total": 37500
       },
-      "cumul": 300000,
+      "cumul": 315000,
       "wk6": {
         "mission": true,
         "base": 37500,
@@ -145837,8 +145852,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 0
+        "guerrilla": true,
+        "total": 15000,
+        "guer_amt": 15000
       }
     },
     "말랑콩알이": {
@@ -146198,7 +146214,7 @@
         "acha": false,
         "total": 25000
       },
-      "cumul": 125000,
+      "cumul": 135000,
       "wk6": {
         "mission": false,
         "base": 0,
@@ -146232,8 +146248,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 0
+        "guerrilla": true,
+        "total": 10000,
+        "guer_amt": 10000
       }
     },
     "쭈말": {
@@ -146356,7 +146373,7 @@
         "acha": false,
         "total": 35000
       },
-      "cumul": 250000,
+      "cumul": 260000,
       "wk6": {
         "mission": true,
         "base": 25000,
@@ -146390,8 +146407,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 0
+        "guerrilla": true,
+        "total": 10000,
+        "guer_amt": 10000
       }
     },
     "또디맘": {
@@ -149738,7 +149756,7 @@
         "acha": false,
         "total": 47500
       },
-      "cumul": 370000,
+      "cumul": 385000,
       "wk6": {
         "mission": true,
         "base": 37500,
@@ -149772,8 +149790,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 0
+        "guerrilla": true,
+        "total": 15000,
+        "guer_amt": 15000
       }
     },
     "쭈선생": {
@@ -153718,7 +153737,7 @@
         "acha": false,
         "total": 37500
       },
-      "cumul": 340000,
+      "cumul": 350000,
       "wk6": {
         "mission": true,
         "base": 37500,
@@ -153752,8 +153771,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 0
+        "guerrilla": true,
+        "total": 10000,
+        "guer_amt": 10000
       }
     },
     "inseeng": {
