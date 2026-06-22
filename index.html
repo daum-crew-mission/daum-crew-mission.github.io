@@ -282,7 +282,7 @@ function makeRwkRows(rw,wk){
   var best=data.best||false;
   var geun=data.geun||false;
   var guer=data.guerrilla||false;
-  var guerAmt=data.guer_amt||10000;
+  var guerAmt=(data.guerrilla_amt!=null)?data.guerrilla_amt:10000;
   var acha=data.acha||false;
   rows+='<div class="rrow"><div class="rrow-label"><span class="rbadge '+(mission?'bok':'bno')+'">'+(mission?'✅ 달성':'❌ 미달')+'</span>주간 미션</div><div class="ramt '+(base>0?'':'zero')+'">'+(base>0?fmt(base):'-')+'</div></div>';
   rows+='<div class="rrow"><div class="rrow-label"><span class="rbadge '+(best?'bbest':'bno')+'">'+(best?'🏆 선정':'— 해당없음')+'</span>주간 베스트</div><div class="ramt '+(best?'':'zero')+'">'+(best?fmt(50000):'-')+'</div></div>';
