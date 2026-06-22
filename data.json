@@ -125285,13 +125285,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
-        "acha": false,
+        "acha": true,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 57500
       }
     },
     "소피": {
@@ -125583,13 +125583,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "어제날씨매우흐림": {
@@ -125662,13 +125662,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "떠들썩한갈매기": {
@@ -125741,13 +125741,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "고구마말랭이": {
@@ -125881,13 +125881,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "김푸항": {
@@ -125960,13 +125960,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "윤바리": {
@@ -126039,13 +126039,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "맛나유주": {
@@ -126118,13 +126118,13 @@
         "total": 75000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
-        "best": false,
+        "mission": true,
+        "base": 25000,
+        "best": true,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 75000
       }
     },
     "초이": {
@@ -126197,13 +126197,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "율이": {
@@ -126276,13 +126276,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "아르공": {
@@ -126355,13 +126355,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "뚱이": {
@@ -126495,13 +126495,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "말랑지기": {
@@ -126574,13 +126574,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "관음이": {
@@ -126732,13 +126732,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "눈높이테크": {
@@ -126811,13 +126811,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "블라": {
@@ -126890,13 +126890,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "온싱이": {
@@ -126969,13 +126969,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "zero": {
@@ -127109,13 +127109,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "김멜팅": {
@@ -127249,13 +127249,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "펑크마녀": {
@@ -127328,13 +127328,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "짠힘이": {
@@ -127407,13 +127407,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "셉티덕덕": {
@@ -127486,13 +127486,13 @@
         "total": 0
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "온둥이": {
@@ -127565,13 +127565,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "jiminhong91": {
@@ -127644,13 +127644,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "아보카동": {
@@ -127784,13 +127784,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "구르미": {
@@ -127863,13 +127863,13 @@
         "total": 87500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "ninn": {
@@ -127942,13 +127942,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "여백의미": {
@@ -128021,13 +128021,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "곤조": {
@@ -128179,13 +128179,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "풋티재": {
@@ -128258,13 +128258,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "나나는나나": {
@@ -128337,13 +128337,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "뜨립카": {
@@ -128416,13 +128416,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
-        "best": false,
+        "mission": true,
+        "base": 37500,
+        "best": true,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 87500
       }
     },
     "뚜릿": {
@@ -128556,13 +128556,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "그저웃지요": {
@@ -128635,13 +128635,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "오트로버트": {
@@ -128714,13 +128714,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "먹뛰녀": {
@@ -128793,13 +128793,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "꽁": {
@@ -128872,13 +128872,13 @@
         "total": 0
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "룽룽이": {
@@ -128951,13 +128951,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "은빛돌고래": {
@@ -129030,13 +129030,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "블랙토끼": {
@@ -129109,13 +129109,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "HotTopic": {
@@ -129188,13 +129188,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "프로직장인": {
@@ -129267,13 +129267,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "리미": {
@@ -129346,13 +129346,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "김다롱51": {
@@ -129486,13 +129486,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "고도띠": {
@@ -129565,13 +129565,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "파플": {
@@ -129644,13 +129644,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "기영이": {
@@ -129723,13 +129723,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "시간마술사까미": {
@@ -129881,13 +129881,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "냥히": {
@@ -130039,13 +130039,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "두부몬": {
@@ -130118,13 +130118,13 @@
         "total": 0
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "Plalalaz": {
@@ -130197,13 +130197,13 @@
         "total": 0
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "여니": {
@@ -130276,13 +130276,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "버터빵": {
@@ -130355,13 +130355,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "또니": {
@@ -130434,13 +130434,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "남제이": {
@@ -130513,13 +130513,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "엄마코끼리": {
@@ -130592,13 +130592,13 @@
         "total": 57500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "꽁돈": {
@@ -130671,13 +130671,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "마법의소라고동": {
@@ -130750,13 +130750,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "불주먹첫째딸": {
@@ -130829,13 +130829,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "감자": {
@@ -130908,13 +130908,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "뿌루치": {
@@ -130987,13 +130987,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "뚠뚠이아지매": {
@@ -131066,13 +131066,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "미니메이": {
@@ -131145,13 +131145,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "깡이yo": {
@@ -131224,13 +131224,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "해피기니": {
@@ -131364,13 +131364,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "멋쨍이": {
@@ -131513,13 +131513,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "혀니혀닝": {
@@ -131592,13 +131592,13 @@
         "total": 45000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "별난바": {
@@ -131671,13 +131671,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "체리": {
@@ -131750,13 +131750,13 @@
         "total": 87500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
-        "acha": false,
+        "acha": true,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 57500
       }
     },
     "몽글": {
@@ -131829,13 +131829,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "촉촉한초코칩": {
@@ -131908,13 +131908,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "김앙꼬": {
@@ -131987,13 +131987,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "묵도리": {
@@ -132066,13 +132066,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "룔류": {
@@ -132145,13 +132145,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "닮아대사": {
@@ -132224,13 +132224,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "빠꼼부부": {
@@ -132303,13 +132303,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "불굴의창문닦이": {
@@ -132382,13 +132382,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "뚜벅이": {
@@ -132461,13 +132461,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "투유맘": {
@@ -132619,13 +132619,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "리니": {
@@ -132777,13 +132777,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "알디": {
@@ -132856,13 +132856,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "여행작가 봄비": {
@@ -132996,13 +132996,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "밈천재": {
@@ -133145,13 +133145,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "전대리": {
@@ -133285,13 +133285,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "유리하늘": {
@@ -133364,13 +133364,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "봄동비빔쿠": {
@@ -133443,13 +133443,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "SOYOhan": {
@@ -133522,13 +133522,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "뚝배기난타쇼": {
@@ -133601,13 +133601,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "덩마": {
@@ -133680,13 +133680,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "픽트립후루룩": {
@@ -133759,13 +133759,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "올느": {
@@ -133838,13 +133838,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "아고미": {
@@ -133917,13 +133917,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "꼼이": {
@@ -134066,13 +134066,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "북쓰고": {
@@ -134145,13 +134145,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "SOL": {
@@ -134224,13 +134224,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "야르네요": {
@@ -134303,13 +134303,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "솜솜": {
@@ -134382,13 +134382,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "한주먹이": {
@@ -134461,13 +134461,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "마이구미": {
@@ -134610,13 +134610,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "빵냥": {
@@ -134689,13 +134689,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "꿀벌은bee": {
@@ -134768,13 +134768,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "포몽잇템": {
@@ -134847,13 +134847,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "크크크": {
@@ -134926,13 +134926,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
-        "best": false,
+        "mission": true,
+        "base": 25000,
+        "best": true,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 75000
       }
     },
     "예외일순없겠죠": {
@@ -135005,13 +135005,13 @@
         "total": 87500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
-        "best": false,
+        "mission": true,
+        "base": 37500,
+        "best": true,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 87500
       }
     },
     "여행낋여왔어요": {
@@ -135145,13 +135145,13 @@
         "total": 57500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "물챙몬": {
@@ -135224,13 +135224,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "루나다": {
@@ -135364,13 +135364,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "D슈": {
@@ -135443,13 +135443,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "해을": {
@@ -135522,13 +135522,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "xlllp": {
@@ -135601,13 +135601,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "Kong2gles": {
@@ -135759,13 +135759,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "이안의경제노트": {
@@ -135838,13 +135838,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "핏치": {
@@ -135917,13 +135917,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "이영": {
@@ -135996,13 +135996,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "뉴토커": {
@@ -136075,13 +136075,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "떡상이": {
@@ -136154,13 +136154,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "도봉순": {
@@ -136233,13 +136233,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
-        "acha": false,
+        "acha": true,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 45000
       }
     },
     "태형제맘": {
@@ -136312,13 +136312,13 @@
         "total": 57500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "김마린": {
@@ -136391,13 +136391,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "이제해야지": {
@@ -136531,13 +136531,13 @@
         "total": 75000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
-        "acha": false,
+        "acha": true,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 45000
       }
     },
     "방탄렌즈지혜": {
@@ -136671,13 +136671,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "바샤바샤57": {
@@ -136750,13 +136750,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "재야": {
@@ -136890,13 +136890,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "dpx729": {
@@ -136969,13 +136969,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "옐": {
@@ -137127,13 +137127,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "해피": {
@@ -137206,13 +137206,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "빠니바겜": {
@@ -137285,13 +137285,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "브랜범": {
@@ -137364,13 +137364,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "유유": {
@@ -137443,13 +137443,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "듀이": {
@@ -137522,13 +137522,13 @@
         "total": 75000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
-        "best": false,
+        "mission": true,
+        "base": 25000,
+        "best": true,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 75000
       }
     },
     "쿄잉": {
@@ -137601,13 +137601,13 @@
         "total": 75000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
-        "best": false,
+        "mission": true,
+        "base": 25000,
+        "best": true,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 75000
       }
     },
     "포박포박": {
@@ -137811,13 +137811,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "유신우사랑해": {
@@ -137890,13 +137890,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "딩굴레차": {
@@ -137969,13 +137969,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "영이": {
@@ -138048,13 +138048,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "진테크랩": {
@@ -138127,13 +138127,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "지굥1": {
@@ -138206,13 +138206,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "하랑": {
@@ -138285,13 +138285,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "블랙": {
@@ -138364,13 +138364,13 @@
         "total": 57500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "리짜이": {
@@ -138443,13 +138443,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "모르는개산책": {
@@ -138522,13 +138522,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "HiHello_o11": {
@@ -138601,13 +138601,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "박쿤": {
@@ -138680,13 +138680,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "왤무": {
@@ -138759,13 +138759,13 @@
         "total": 0
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "주접왕합죽이": {
@@ -138838,13 +138838,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "미픽": {
@@ -138917,13 +138917,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "전하고": {
@@ -138996,13 +138996,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "영크크": {
@@ -139075,13 +139075,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "징스10": {
@@ -139154,13 +139154,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "츠키": {
@@ -139233,13 +139233,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "찌니소울": {
@@ -139312,13 +139312,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "베티": {
@@ -139461,13 +139461,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "지냥트": {
@@ -139619,13 +139619,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "필릴리": {
@@ -139908,13 +139908,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "이게무슨일": {
@@ -139987,13 +139987,13 @@
         "total": 57500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "돈읽남": {
@@ -140127,13 +140127,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "경찰부른다햇다진짜로": {
@@ -140285,13 +140285,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "사랑": {
@@ -140364,13 +140364,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "라라랜드": {
@@ -140443,13 +140443,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "서걱서걱": {
@@ -140522,13 +140522,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "나도TV": {
@@ -140601,13 +140601,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "김누구": {
@@ -140680,13 +140680,13 @@
         "total": 87500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
-        "best": false,
+        "mission": true,
+        "base": 37500,
+        "best": true,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 87500
       }
     },
     "랑은": {
@@ -140759,13 +140759,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "최강이": {
@@ -140838,13 +140838,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "jina": {
@@ -140917,13 +140917,13 @@
         "total": 75000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
-        "best": false,
+        "mission": true,
+        "base": 25000,
+        "best": true,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 75000
       }
     },
     "비니": {
@@ -140996,13 +140996,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "0유링딩동0": {
@@ -141136,13 +141136,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "야구노트": {
@@ -141215,13 +141215,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "갓생도리": {
@@ -141294,13 +141294,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "베비윰": {
@@ -141452,13 +141452,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "쥬시뷰": {
@@ -141531,13 +141531,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "멋쟁이토마토": {
@@ -141610,13 +141610,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "쓰나": {
@@ -141689,13 +141689,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "보라개미": {
@@ -141847,13 +141847,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "윤준희": {
@@ -141926,13 +141926,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "나시티": {
@@ -142005,13 +142005,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "딸기케이크": {
@@ -142084,13 +142084,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "박씨부인이씨": {
@@ -142163,13 +142163,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "익살꾼": {
@@ -142242,13 +142242,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "이온": {
@@ -142321,13 +142321,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "이또임": {
@@ -142400,13 +142400,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "꼬물이초코": {
@@ -142558,13 +142558,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "ALT": {
@@ -142637,13 +142637,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "다이제초코바다": {
@@ -142716,13 +142716,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "밍구망구": {
@@ -142795,13 +142795,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "룽이": {
@@ -142874,13 +142874,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "위든": {
@@ -142953,13 +142953,13 @@
         "total": 57500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "뚝딱이걸리버": {
@@ -143032,13 +143032,13 @@
         "total": 87500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
-        "best": false,
+        "mission": true,
+        "base": 37500,
+        "best": true,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 87500
       }
     },
     "노바디": {
@@ -143111,13 +143111,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "앞니": {
@@ -143190,13 +143190,13 @@
         "total": 75000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
-        "best": false,
+        "mission": true,
+        "base": 25000,
+        "best": true,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 75000
       }
     },
     "헤이즐넛라떼": {
@@ -143269,13 +143269,13 @@
         "total": 75000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
-        "acha": false,
+        "acha": true,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 45000
       }
     },
     "감감자": {
@@ -143348,13 +143348,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "김핑키": {
@@ -143427,13 +143427,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "동글밍": {
@@ -143506,13 +143506,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "푸른올리브7033": {
@@ -143707,13 +143707,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "내가제일잘나가는리액션왕": {
@@ -143786,13 +143786,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "엄마당": {
@@ -143865,13 +143865,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "포도": {
@@ -144005,13 +144005,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "꼬무리": {
@@ -144084,13 +144084,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "수박": {
@@ -144224,13 +144224,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "디모": {
@@ -144303,13 +144303,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "삔디": {
@@ -144382,13 +144382,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "온삼": {
@@ -144522,13 +144522,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "마타나": {
@@ -144601,13 +144601,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "닙닙": {
@@ -144680,13 +144680,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "바다는오링씨": {
@@ -144759,13 +144759,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
-        "best": false,
+        "mission": true,
+        "base": 25000,
+        "best": true,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 75000
       }
     },
     "개똥": {
@@ -144917,13 +144917,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "열정콩": {
@@ -144996,13 +144996,13 @@
         "total": 0
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "후하닝형제": {
@@ -145075,13 +145075,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "그러니까내생각엔": {
@@ -145154,13 +145154,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "리유홈": {
@@ -145294,13 +145294,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "하밤기": {
@@ -145373,13 +145373,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "유디1715": {
@@ -145452,13 +145452,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "말랭이": {
@@ -145531,13 +145531,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "귤로서": {
@@ -145610,13 +145610,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "김진짜": {
@@ -145689,13 +145689,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "꼰대리": {
@@ -145768,13 +145768,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "뭄찌": {
@@ -145847,13 +145847,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "woni10": {
@@ -145987,13 +145987,13 @@
         "total": 57500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
-        "acha": false,
+        "acha": true,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 57500
       }
     },
     "난길": {
@@ -146066,13 +146066,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "Sandi": {
@@ -146145,13 +146145,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "재잉": {
@@ -146285,13 +146285,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "jungwoo0564": {
@@ -146425,13 +146425,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "이니스": {
@@ -146504,13 +146504,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "티키": {
@@ -146583,13 +146583,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "말랭이냥이": {
@@ -146784,13 +146784,13 @@
         "total": 87500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
-        "best": false,
+        "mission": true,
+        "base": 37500,
+        "best": true,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 87500
       }
     },
     "그린애플": {
@@ -146863,13 +146863,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "냥냥펀치": {
@@ -146942,13 +146942,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "욷혀니": {
@@ -147021,13 +147021,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "이꾸": {
@@ -147100,13 +147100,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "터틀맘": {
@@ -147179,13 +147179,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "아몬드": {
@@ -147258,13 +147258,13 @@
         "total": 0
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "레온": {
@@ -147398,13 +147398,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "콩쥐": {
@@ -147477,13 +147477,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "유루비": {
@@ -147556,13 +147556,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "돔두": {
@@ -147635,13 +147635,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "푸부푸부": {
@@ -147714,13 +147714,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "공놀이톡": {
@@ -147793,13 +147793,13 @@
         "total": 57500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "쭈": {
@@ -147872,13 +147872,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "하루투어": {
@@ -147951,13 +147951,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "Su7ki": {
@@ -148030,13 +148030,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "오쩌네": {
@@ -148109,13 +148109,13 @@
         "total": 57500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
-        "acha": false,
+        "acha": true,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 57500
       }
     },
     "머나": {
@@ -148188,13 +148188,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "유로삐": {
@@ -148267,13 +148267,13 @@
         "total": 0
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "엘라떼": {
@@ -148407,13 +148407,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "돌멩이가될거야": {
@@ -148547,13 +148547,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "수퍼짠돌이": {
@@ -148626,13 +148626,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
-        "acha": false,
+        "acha": true,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 45000
       }
     },
     "라니": {
@@ -148705,13 +148705,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "유이랑": {
@@ -148906,13 +148906,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "Limmn": {
@@ -148985,13 +148985,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "가리": {
@@ -149064,13 +149064,13 @@
         "total": 75000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "엘프": {
@@ -149143,13 +149143,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "수윗홈": {
@@ -149222,13 +149222,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "당고퇴끼": {
@@ -149301,13 +149301,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "이뭉": {
@@ -149380,13 +149380,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "햄냐햄냐": {
@@ -149459,13 +149459,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "김망상": {
@@ -149660,13 +149660,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "최깡": {
@@ -149739,13 +149739,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "림조": {
@@ -149818,13 +149818,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "민고요": {
@@ -149958,13 +149958,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "유진": {
@@ -150037,13 +150037,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "달로": {
@@ -150116,13 +150116,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "heony": {
@@ -150256,13 +150256,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "엘렌17": {
@@ -150335,13 +150335,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
-        "acha": false,
+        "acha": true,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 45000
       }
     },
     "제주도낑깡": {
@@ -150414,13 +150414,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "말랑콩알이": {
@@ -150493,13 +150493,13 @@
         "total": 45000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
-        "best": false,
+        "mission": true,
+        "base": 25000,
+        "best": true,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 75000
       }
     },
     "봄아씨": {
@@ -150572,13 +150572,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "가리봉봉": {
@@ -150651,13 +150651,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "톨이": {
@@ -150730,13 +150730,13 @@
         "total": 0
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "설탕이발소": {
@@ -150809,13 +150809,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "쭈말": {
@@ -150888,13 +150888,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "피아노맨": {
@@ -150967,13 +150967,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "또디맘": {
@@ -151046,13 +151046,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "열우": {
@@ -151125,13 +151125,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "부산고니": {
@@ -151204,13 +151204,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "빛이나는솔로": {
@@ -151283,13 +151283,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "Kitty": {
@@ -151554,13 +151554,13 @@
         "total": 0
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "셔니이니": {
@@ -151633,13 +151633,13 @@
         "total": 75000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
-        "best": false,
+        "mission": true,
+        "base": 25000,
+        "best": true,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 75000
       }
     },
     "끼끼": {
@@ -151773,13 +151773,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "HAZ0": {
@@ -151852,13 +151852,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "멕시코66": {
@@ -151931,13 +151931,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "로파이": {
@@ -152010,13 +152010,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
-        "acha": false,
+        "acha": true,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 45000
       }
     },
     "맥스라기": {
@@ -152089,13 +152089,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "디티디": {
@@ -152168,13 +152168,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "인사하는다람쥐": {
@@ -152247,13 +152247,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "만추니": {
@@ -152326,13 +152326,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "원스어게인": {
@@ -152405,13 +152405,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "울짝팡": {
@@ -152484,13 +152484,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "체릿슈": {
@@ -152563,13 +152563,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "hani77": {
@@ -152947,13 +152947,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "sloweh.i": {
@@ -153148,13 +153148,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "곰구마": {
@@ -153288,13 +153288,13 @@
         "total": 75000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
-        "best": false,
+        "mission": true,
+        "base": 25000,
+        "best": true,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 75000
       }
     },
     "쨕쨕박수": {
@@ -153367,13 +153367,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "Mein_czech": {
@@ -153446,13 +153446,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "릴리": {
@@ -153525,13 +153525,13 @@
         "total": 87500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
-        "best": false,
+        "mission": true,
+        "base": 37500,
+        "best": true,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 87500
       }
     },
     "지니": {
@@ -153604,13 +153604,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "균지": {
@@ -153683,13 +153683,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "마천": {
@@ -153832,13 +153832,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "제리": {
@@ -153911,13 +153911,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "김찍": {
@@ -153990,13 +153990,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "닌딩동닌자": {
@@ -154130,13 +154130,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "슈키": {
@@ -154270,13 +154270,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "코코": {
@@ -154349,13 +154349,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "쭈선생": {
@@ -154489,13 +154489,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "호랑나비기운이솟아나요": {
@@ -154568,13 +154568,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "조뺑이": {
@@ -154647,13 +154647,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "먕먕먕먕": {
@@ -154726,13 +154726,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "귤밭": {
@@ -154805,13 +154805,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "숭늉": {
@@ -154884,13 +154884,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "쭈제비": {
@@ -154963,13 +154963,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "부이주민": {
@@ -155042,13 +155042,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "펌킨박": {
@@ -155182,13 +155182,13 @@
         "total": 0
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "모터위켄드": {
@@ -155322,13 +155322,13 @@
         "total": 45000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "로지안": {
@@ -155462,13 +155462,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "완두사랑": {
@@ -155803,13 +155803,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "뚜뚜": {
@@ -155882,13 +155882,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "와압": {
@@ -156022,13 +156022,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "요즘남편없던아빠": {
@@ -156101,13 +156101,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "도리몽": {
@@ -156180,13 +156180,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "꿀돼나니": {
@@ -156259,13 +156259,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "큨큨큨뮴": {
@@ -156399,13 +156399,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "아니아놔그란데": {
@@ -156478,13 +156478,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "만두냠": {
@@ -156557,13 +156557,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "가제트꼬냉": {
@@ -156636,13 +156636,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "자두가좋아": {
@@ -156715,13 +156715,13 @@
         "total": 57500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "가보자고": {
@@ -156864,13 +156864,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "영뽀또": {
@@ -156943,13 +156943,13 @@
         "total": 57500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "체육부장": {
@@ -157022,13 +157022,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "아융미": {
@@ -157101,13 +157101,13 @@
         "total": 0
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "꿈별": {
@@ -157180,13 +157180,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "배고파무새": {
@@ -157259,13 +157259,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "뭉망": {
@@ -157338,13 +157338,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "설빛": {
@@ -157417,13 +157417,13 @@
         "total": 57500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
-        "best": false,
+        "mission": true,
+        "base": 37500,
+        "best": true,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 87500
       }
     },
     "209이든": {
@@ -157496,13 +157496,13 @@
         "total": 57500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
-        "best": false,
+        "mission": true,
+        "base": 37500,
+        "best": true,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 87500
       }
     },
     "안냐잉": {
@@ -157575,13 +157575,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "hey_jane1031": {
@@ -157654,13 +157654,13 @@
         "total": 87500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
-        "best": false,
+        "mission": true,
+        "base": 37500,
+        "best": true,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 87500
       }
     },
     "어쩌다책": {
@@ -157794,13 +157794,13 @@
         "total": 75000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
-        "best": false,
+        "mission": true,
+        "base": 25000,
+        "best": true,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 75000
       }
     },
     "블랙하양임": {
@@ -157873,13 +157873,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "리루짱": {
@@ -158013,13 +158013,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "푸딩": {
@@ -158092,13 +158092,13 @@
         "total": 0
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "햄토리": {
@@ -158250,13 +158250,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "존디": {
@@ -158329,13 +158329,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "inseeng": {
@@ -158408,13 +158408,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "DRDR": {
@@ -158548,13 +158548,13 @@
         "total": 0
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "융드벤처": {
@@ -158627,13 +158627,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "비마이영": {
@@ -158706,13 +158706,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "겸이": {
@@ -158785,13 +158785,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "꼬로로": {
@@ -158864,13 +158864,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "숩멍": {
@@ -158943,13 +158943,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "sxuzxeon": {
@@ -159022,13 +159022,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "히도": {
@@ -159101,13 +159101,13 @@
         "total": 0
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "브랜드한장": {
@@ -159180,13 +159180,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "베리블루베리": {
@@ -159320,13 +159320,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "이겨냅니다": {
@@ -159399,13 +159399,13 @@
         "total": 0
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "새우모자": {
@@ -159478,13 +159478,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "koji12": {
@@ -159679,13 +159679,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "김가비": {
@@ -159758,13 +159758,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "에이사": {
@@ -159837,13 +159837,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "돌맹구": {
@@ -159916,13 +159916,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "보리": {
@@ -159995,13 +159995,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "스마티나": {
@@ -160135,13 +160135,13 @@
         "total": 35000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
-        "acha": false,
+        "acha": true,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 45000
       }
     },
     "토마토": {
@@ -160214,13 +160214,13 @@
         "total": 0
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "유나나킥": {
@@ -160293,13 +160293,13 @@
         "total": 0
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "egprim": {
@@ -160372,13 +160372,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "김쭈돌": {
@@ -160451,13 +160451,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "땅콩": {
@@ -160609,13 +160609,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "꼭지안": {
@@ -160688,13 +160688,13 @@
         "total": 75000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 35000
       }
     },
     "샛별산책": {
@@ -160767,13 +160767,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "레드니코": {
@@ -160846,13 +160846,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "고냥": {
@@ -160925,13 +160925,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "아진": {
@@ -161004,13 +161004,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "스윗맘입니다": {
@@ -161083,13 +161083,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "우슴": {
@@ -161223,13 +161223,13 @@
         "total": 47500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "NCT지성짱팬": {
@@ -161381,13 +161381,13 @@
         "total": 57500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "[콘텐츠]글수저": {
@@ -161521,13 +161521,13 @@
         "total": 37500
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
-        "geun": false,
+        "geun": true,
         "guerrilla": false,
-        "total": 0
+        "total": 47500
       }
     },
     "[리액션]jungwoo0564": {
@@ -161600,13 +161600,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     },
     "낭만행볶기": {
@@ -161679,13 +161679,13 @@
         "total": 0
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 37500,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 37500
       }
     },
     "Easyhan_이지한": {
@@ -161898,13 +161898,13 @@
         "total": 25000
       },
       "wk9": {
-        "mission": false,
-        "base": 0,
+        "mission": true,
+        "base": 25000,
         "best": false,
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 25000
       }
     }
   },
