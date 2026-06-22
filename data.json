@@ -125072,7 +125072,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "코코팜": {
@@ -125133,7 +125134,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "ilyan12": {
@@ -125212,7 +125214,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "참깨": {
@@ -125291,7 +125294,8 @@
         "acha": true,
         "geun": false,
         "guerrilla": false,
-        "total": 57500
+        "total": 57500,
+        "guerrilla_amt": 0
       }
     },
     "소피": {
@@ -125352,7 +125356,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "글수저": {
@@ -125431,7 +125436,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "햄스터목소리": {
@@ -125510,7 +125516,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "필피리": {
@@ -125588,8 +125595,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 37500
+        "guerrilla": true,
+        "total": 47500,
+        "guerrilla_amt": 10000
       }
     },
     "어제날씨매우흐림": {
@@ -125668,7 +125676,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "떠들썩한갈매기": {
@@ -125747,7 +125756,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "고구마말랭이": {
@@ -125808,7 +125818,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "꾸르릉이": {
@@ -125887,7 +125898,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "김푸항": {
@@ -125966,7 +125978,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "윤바리": {
@@ -126045,7 +126058,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "맛나유주": {
@@ -126124,7 +126138,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 75000
+        "total": 75000,
+        "guerrilla_amt": 0
       }
     },
     "초이": {
@@ -126203,7 +126218,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "율이": {
@@ -126282,7 +126298,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "아르공": {
@@ -126361,7 +126378,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "뚱이": {
@@ -126422,7 +126440,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "설리와조스키": {
@@ -126501,7 +126520,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "말랑지기": {
@@ -126580,7 +126600,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "관음이": {
@@ -126659,7 +126680,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "루미로그": {
@@ -126738,7 +126760,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "눈높이테크": {
@@ -126817,7 +126840,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "블라": {
@@ -126896,7 +126920,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "온싱이": {
@@ -126975,7 +127000,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "zero": {
@@ -127036,7 +127062,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "냥": {
@@ -127115,7 +127142,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "김멜팅": {
@@ -127176,7 +127204,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "손익분기점.": {
@@ -127255,7 +127284,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "펑크마녀": {
@@ -127334,7 +127364,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "짠힘이": {
@@ -127413,7 +127444,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "셉티덕덕": {
@@ -127492,7 +127524,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "온둥이": {
@@ -127571,7 +127604,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "jiminhong91": {
@@ -127650,7 +127684,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "아보카동": {
@@ -127711,7 +127746,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "먹짱수": {
@@ -127790,7 +127826,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "구르미": {
@@ -127869,7 +127906,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "ninn": {
@@ -127948,7 +127986,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "여백의미": {
@@ -128027,7 +128066,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "곤조": {
@@ -128105,8 +128145,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 0
+        "guerrilla": true,
+        "total": 15000,
+        "guerrilla_amt": 15000
       }
     },
     "pluto": {
@@ -128185,7 +128226,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "풋티재": {
@@ -128264,7 +128306,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "나나는나나": {
@@ -128343,7 +128386,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "뜨립카": {
@@ -128422,7 +128466,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 87500
+        "total": 87500,
+        "guerrilla_amt": 0
       }
     },
     "뚜릿": {
@@ -128483,7 +128528,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "강하지레몽": {
@@ -128562,7 +128608,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "그저웃지요": {
@@ -128641,7 +128688,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "오트로버트": {
@@ -128720,7 +128768,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "먹뛰녀": {
@@ -128799,7 +128848,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "꽁": {
@@ -128878,7 +128928,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "룽룽이": {
@@ -128957,7 +129008,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "은빛돌고래": {
@@ -129036,7 +129088,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "블랙토끼": {
@@ -129115,7 +129168,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "HotTopic": {
@@ -129193,8 +129247,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 37500
+        "guerrilla": true,
+        "total": 52500,
+        "guerrilla_amt": 15000
       }
     },
     "프로직장인": {
@@ -129273,7 +129328,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "리미": {
@@ -129352,7 +129408,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "김다롱51": {
@@ -129413,7 +129470,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "엘라28": {
@@ -129492,7 +129550,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "고도띠": {
@@ -129571,7 +129630,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "파플": {
@@ -129650,7 +129710,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "기영이": {
@@ -129728,8 +129789,9 @@
         "best": false,
         "acha": false,
         "geun": true,
-        "guerrilla": false,
-        "total": 47500
+        "guerrilla": true,
+        "total": 57500,
+        "guerrilla_amt": 10000
       }
     },
     "시간마술사까미": {
@@ -129808,7 +129870,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "궁금한게너무MANA": {
@@ -129887,7 +129950,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "냥히": {
@@ -129966,7 +130030,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "키지": {
@@ -130045,7 +130110,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "두부몬": {
@@ -130124,7 +130190,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "Plalalaz": {
@@ -130203,7 +130270,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "여니": {
@@ -130282,7 +130350,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "버터빵": {
@@ -130361,7 +130430,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "또니": {
@@ -130440,7 +130510,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "남제이": {
@@ -130519,7 +130590,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "엄마코끼리": {
@@ -130598,7 +130670,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "꽁돈": {
@@ -130677,7 +130750,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "마법의소라고동": {
@@ -130756,7 +130830,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "불주먹첫째딸": {
@@ -130835,7 +130910,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "감자": {
@@ -130914,7 +130990,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "뿌루치": {
@@ -130993,7 +131070,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "뚠뚠이아지매": {
@@ -131072,7 +131150,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "미니메이": {
@@ -131151,7 +131230,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "깡이yo": {
@@ -131230,7 +131310,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "해피기니": {
@@ -131291,7 +131372,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "froufrou": {
@@ -131370,7 +131452,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "멋쨍이": {
@@ -131440,7 +131523,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "미리": {
@@ -131519,7 +131603,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "혀니혀닝": {
@@ -131597,8 +131682,9 @@
         "best": false,
         "acha": false,
         "geun": true,
-        "guerrilla": false,
-        "total": 35000
+        "guerrilla": true,
+        "total": 55000,
+        "guerrilla_amt": 20000
       }
     },
     "별난바": {
@@ -131677,7 +131763,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "체리": {
@@ -131756,7 +131843,8 @@
         "acha": true,
         "geun": false,
         "guerrilla": false,
-        "total": 57500
+        "total": 57500,
+        "guerrilla_amt": 0
       }
     },
     "몽글": {
@@ -131835,7 +131923,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "촉촉한초코칩": {
@@ -131914,7 +132003,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "김앙꼬": {
@@ -131993,7 +132083,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "묵도리": {
@@ -132072,7 +132163,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "룔류": {
@@ -132151,7 +132243,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "닮아대사": {
@@ -132230,7 +132323,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "빠꼼부부": {
@@ -132309,7 +132403,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "불굴의창문닦이": {
@@ -132388,7 +132483,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "뚜벅이": {
@@ -132467,7 +132563,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "투유맘": {
@@ -132546,7 +132643,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "쨔니": {
@@ -132625,7 +132723,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "리니": {
@@ -132704,7 +132803,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "햎아리": {
@@ -132783,7 +132883,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "알디": {
@@ -132862,7 +132963,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "여행작가 봄비": {
@@ -132923,7 +133025,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "퇴근하고옴": {
@@ -133002,7 +133105,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "밈천재": {
@@ -133072,7 +133176,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "doongle": {
@@ -133151,7 +133256,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "전대리": {
@@ -133212,7 +133318,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "영지": {
@@ -133291,7 +133398,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "유리하늘": {
@@ -133370,7 +133478,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "봄동비빔쿠": {
@@ -133449,7 +133558,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "SOYOhan": {
@@ -133528,7 +133638,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "뚝배기난타쇼": {
@@ -133607,7 +133718,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "덩마": {
@@ -133686,7 +133798,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "픽트립후루룩": {
@@ -133765,7 +133878,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "올느": {
@@ -133844,7 +133958,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "아고미": {
@@ -133923,7 +134038,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "꼼이": {
@@ -133993,7 +134109,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "고먐미": {
@@ -134072,7 +134189,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "북쓰고": {
@@ -134151,7 +134269,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "SOL": {
@@ -134230,7 +134349,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "야르네요": {
@@ -134309,7 +134429,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "솜솜": {
@@ -134388,7 +134509,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "한주먹이": {
@@ -134467,7 +134589,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "마이구미": {
@@ -134537,7 +134660,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "부릉부장": {
@@ -134616,7 +134740,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "빵냥": {
@@ -134695,7 +134820,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "꿀벌은bee": {
@@ -134774,7 +134900,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "포몽잇템": {
@@ -134853,7 +134980,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "크크크": {
@@ -134932,7 +135060,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 75000
+        "total": 75000,
+        "guerrilla_amt": 0
       }
     },
     "예외일순없겠죠": {
@@ -135011,7 +135140,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 87500
+        "total": 87500,
+        "guerrilla_amt": 0
       }
     },
     "여행낋여왔어요": {
@@ -135072,7 +135202,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "라바래빗": {
@@ -135151,7 +135282,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "물챙몬": {
@@ -135230,7 +135362,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "루나다": {
@@ -135291,7 +135424,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "긴소리": {
@@ -135370,7 +135504,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "D슈": {
@@ -135449,7 +135584,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "해을": {
@@ -135528,7 +135664,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "xlllp": {
@@ -135607,7 +135744,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "Kong2gles": {
@@ -135686,7 +135824,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "YUII": {
@@ -135765,7 +135904,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "이안의경제노트": {
@@ -135844,7 +135984,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "핏치": {
@@ -135922,8 +136063,9 @@
         "best": false,
         "acha": false,
         "geun": true,
-        "guerrilla": false,
-        "total": 35000
+        "guerrilla": true,
+        "total": 50000,
+        "guerrilla_amt": 15000
       }
     },
     "이영": {
@@ -136002,7 +136144,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "뉴토커": {
@@ -136081,7 +136224,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "떡상이": {
@@ -136160,7 +136304,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "도봉순": {
@@ -136239,7 +136384,8 @@
         "acha": true,
         "geun": false,
         "guerrilla": false,
-        "total": 45000
+        "total": 45000,
+        "guerrilla_amt": 0
       }
     },
     "태형제맘": {
@@ -136318,7 +136464,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "김마린": {
@@ -136397,7 +136544,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "이제해야지": {
@@ -136458,7 +136606,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "행복한하루야": {
@@ -136537,7 +136686,8 @@
         "acha": true,
         "geun": false,
         "guerrilla": false,
-        "total": 45000
+        "total": 45000,
+        "guerrilla_amt": 0
       }
     },
     "방탄렌즈지혜": {
@@ -136598,7 +136748,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "부자공식": {
@@ -136677,7 +136828,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "바샤바샤57": {
@@ -136756,7 +136908,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "재야": {
@@ -136817,7 +136970,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "답글다는쿠키": {
@@ -136896,7 +137050,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "dpx729": {
@@ -136975,7 +137130,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "옐": {
@@ -137054,7 +137210,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "팥붕이": {
@@ -137133,7 +137290,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "해피": {
@@ -137212,7 +137370,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "빠니바겜": {
@@ -137291,7 +137450,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "브랜범": {
@@ -137370,7 +137530,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "유유": {
@@ -137449,7 +137610,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "듀이": {
@@ -137528,7 +137690,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 75000
+        "total": 75000,
+        "guerrilla_amt": 0
       }
     },
     "쿄잉": {
@@ -137607,7 +137770,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 75000
+        "total": 75000,
+        "guerrilla_amt": 0
       }
     },
     "포박포박": {
@@ -137677,7 +137841,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "낭만하마": {
@@ -137738,7 +137903,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "도루": {
@@ -137817,7 +137983,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "유신우사랑해": {
@@ -137896,7 +138063,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "딩굴레차": {
@@ -137975,7 +138143,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "영이": {
@@ -138054,7 +138223,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "진테크랩": {
@@ -138133,7 +138303,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "지굥1": {
@@ -138212,7 +138383,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "하랑": {
@@ -138291,7 +138463,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "블랙": {
@@ -138369,8 +138542,9 @@
         "best": false,
         "acha": false,
         "geun": true,
-        "guerrilla": false,
-        "total": 47500
+        "guerrilla": true,
+        "total": 57500,
+        "guerrilla_amt": 10000
       }
     },
     "리짜이": {
@@ -138449,7 +138623,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "모르는개산책": {
@@ -138528,7 +138703,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "HiHello_o11": {
@@ -138607,7 +138783,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "박쿤": {
@@ -138686,7 +138863,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "왤무": {
@@ -138765,7 +138943,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "주접왕합죽이": {
@@ -138844,7 +139023,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "미픽": {
@@ -138923,7 +139103,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "전하고": {
@@ -139002,7 +139183,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "영크크": {
@@ -139081,7 +139263,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "징스10": {
@@ -139160,7 +139343,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "츠키": {
@@ -139239,7 +139423,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "찌니소울": {
@@ -139318,7 +139503,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "베티": {
@@ -139388,7 +139574,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "나비주택": {
@@ -139467,7 +139654,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "지냥트": {
@@ -139546,7 +139734,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "춘복": {
@@ -139625,7 +139814,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "필릴리": {
@@ -139686,7 +139876,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "밀키줘": {
@@ -139765,7 +139956,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "크리스탈파워": {
@@ -139835,7 +140027,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "안일": {
@@ -139914,7 +140107,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "이게무슨일": {
@@ -139993,7 +140187,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "돈읽남": {
@@ -140054,7 +140249,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "씨삐": {
@@ -140133,7 +140329,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "경찰부른다햇다진짜로": {
@@ -140212,7 +140409,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "누룽": {
@@ -140290,8 +140488,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 25000
+        "guerrilla": true,
+        "total": 40000,
+        "guerrilla_amt": 15000
       }
     },
     "사랑": {
@@ -140370,7 +140569,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "라라랜드": {
@@ -140449,7 +140649,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "서걱서걱": {
@@ -140528,7 +140729,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "나도TV": {
@@ -140607,7 +140809,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "김누구": {
@@ -140685,8 +140888,9 @@
         "best": true,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 87500
+        "guerrilla": true,
+        "total": 97500,
+        "guerrilla_amt": 10000
       }
     },
     "랑은": {
@@ -140765,7 +140969,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "최강이": {
@@ -140844,7 +141049,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "jina": {
@@ -140923,7 +141129,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 75000
+        "total": 75000,
+        "guerrilla_amt": 0
       }
     },
     "비니": {
@@ -141002,7 +141209,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "0유링딩동0": {
@@ -141063,7 +141271,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "레몬맛우유": {
@@ -141142,7 +141351,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "야구노트": {
@@ -141221,7 +141431,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "갓생도리": {
@@ -141300,7 +141511,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "베비윰": {
@@ -141379,7 +141591,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "콤마트립": {
@@ -141458,7 +141671,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "쥬시뷰": {
@@ -141537,7 +141751,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "멋쟁이토마토": {
@@ -141616,7 +141831,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "쓰나": {
@@ -141695,7 +141911,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "보라개미": {
@@ -141774,7 +141991,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "나니": {
@@ -141853,7 +142071,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "윤준희": {
@@ -141932,7 +142151,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "나시티": {
@@ -142011,7 +142231,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "딸기케이크": {
@@ -142089,8 +142310,9 @@
         "best": false,
         "acha": false,
         "geun": true,
-        "guerrilla": false,
-        "total": 35000
+        "guerrilla": true,
+        "total": 50000,
+        "guerrilla_amt": 15000
       }
     },
     "박씨부인이씨": {
@@ -142169,7 +142391,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "익살꾼": {
@@ -142248,7 +142471,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "이온": {
@@ -142327,7 +142551,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "이또임": {
@@ -142406,7 +142631,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "꼬물이초코": {
@@ -142485,7 +142711,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "레모닝": {
@@ -142564,7 +142791,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "ALT": {
@@ -142643,7 +142871,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "다이제초코바다": {
@@ -142721,8 +142950,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 25000
+        "guerrilla": true,
+        "total": 35000,
+        "guerrilla_amt": 10000
       }
     },
     "밍구망구": {
@@ -142801,7 +143031,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "룽이": {
@@ -142880,7 +143111,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "위든": {
@@ -142958,8 +143190,9 @@
         "best": false,
         "acha": false,
         "geun": true,
-        "guerrilla": false,
-        "total": 47500
+        "guerrilla": true,
+        "total": 67500,
+        "guerrilla_amt": 20000
       }
     },
     "뚝딱이걸리버": {
@@ -143038,7 +143271,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 87500
+        "total": 87500,
+        "guerrilla_amt": 0
       }
     },
     "노바디": {
@@ -143117,7 +143351,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "앞니": {
@@ -143196,7 +143431,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 75000
+        "total": 75000,
+        "guerrilla_amt": 0
       }
     },
     "헤이즐넛라떼": {
@@ -143275,7 +143511,8 @@
         "acha": true,
         "geun": false,
         "guerrilla": false,
-        "total": 45000
+        "total": 45000,
+        "guerrilla_amt": 0
       }
     },
     "감감자": {
@@ -143354,7 +143591,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "김핑키": {
@@ -143433,7 +143671,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "동글밍": {
@@ -143512,7 +143751,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "푸른올리브7033": {
@@ -143573,7 +143813,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "박박바": {
@@ -143634,7 +143875,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "봄가을": {
@@ -143713,7 +143955,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "내가제일잘나가는리액션왕": {
@@ -143792,7 +144035,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "엄마당": {
@@ -143871,7 +144115,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "포도": {
@@ -143932,7 +144177,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "새벽나루": {
@@ -144011,7 +144257,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "꼬무리": {
@@ -144090,7 +144337,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "수박": {
@@ -144151,7 +144399,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "아윤": {
@@ -144230,7 +144479,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "디모": {
@@ -144309,7 +144559,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "삔디": {
@@ -144388,7 +144639,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "온삼": {
@@ -144449,7 +144701,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "닮은살걀": {
@@ -144528,7 +144781,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "마타나": {
@@ -144607,7 +144861,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "닙닙": {
@@ -144686,7 +144941,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "바다는오링씨": {
@@ -144765,7 +145021,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 75000
+        "total": 75000,
+        "guerrilla_amt": 0
       }
     },
     "개똥": {
@@ -144844,7 +145101,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "뿡빵이": {
@@ -144923,7 +145181,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "열정콩": {
@@ -145002,7 +145261,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "후하닝형제": {
@@ -145081,7 +145341,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "그러니까내생각엔": {
@@ -145160,7 +145421,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "리유홈": {
@@ -145221,7 +145483,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "모두행복합시다": {
@@ -145300,7 +145563,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "하밤기": {
@@ -145379,7 +145643,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "유디1715": {
@@ -145458,7 +145723,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "말랭이": {
@@ -145537,7 +145803,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "귤로서": {
@@ -145615,8 +145882,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 37500
+        "guerrilla": true,
+        "total": 67500,
+        "guerrilla_amt": 30000
       }
     },
     "김진짜": {
@@ -145695,7 +145963,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "꼰대리": {
@@ -145774,7 +146043,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "뭄찌": {
@@ -145853,7 +146123,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "woni10": {
@@ -145914,7 +146185,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "모니데이": {
@@ -145993,7 +146265,8 @@
         "acha": true,
         "geun": false,
         "guerrilla": false,
-        "total": 57500
+        "total": 57500,
+        "guerrilla_amt": 0
       }
     },
     "난길": {
@@ -146072,7 +146345,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "Sandi": {
@@ -146151,7 +146425,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "재잉": {
@@ -146212,7 +146487,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "닭큐멘터리": {
@@ -146291,7 +146567,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "jungwoo0564": {
@@ -146352,7 +146629,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "가랑이": {
@@ -146431,7 +146709,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "이니스": {
@@ -146510,7 +146789,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "티키": {
@@ -146589,7 +146869,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "말랭이냥이": {
@@ -146650,7 +146931,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "부수입대장": {
@@ -146711,7 +146993,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "주목나무": {
@@ -146790,7 +147073,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 87500
+        "total": 87500,
+        "guerrilla_amt": 0
       }
     },
     "그린애플": {
@@ -146869,7 +147153,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "냥냥펀치": {
@@ -146948,7 +147233,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "욷혀니": {
@@ -147027,7 +147313,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "이꾸": {
@@ -147106,7 +147393,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "터틀맘": {
@@ -147185,7 +147473,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "아몬드": {
@@ -147264,7 +147553,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "레온": {
@@ -147325,7 +147615,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "됴됴하됴": {
@@ -147404,7 +147695,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "콩쥐": {
@@ -147483,7 +147775,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "유루비": {
@@ -147562,7 +147855,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "돔두": {
@@ -147641,7 +147935,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "푸부푸부": {
@@ -147720,7 +148015,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "공놀이톡": {
@@ -147799,7 +148095,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "쭈": {
@@ -147878,7 +148175,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "하루투어": {
@@ -147957,7 +148255,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "Su7ki": {
@@ -148035,8 +148334,9 @@
         "best": false,
         "acha": false,
         "geun": true,
-        "guerrilla": false,
-        "total": 35000
+        "guerrilla": true,
+        "total": 45000,
+        "guerrilla_amt": 10000
       }
     },
     "오쩌네": {
@@ -148115,7 +148415,8 @@
         "acha": true,
         "geun": false,
         "guerrilla": false,
-        "total": 57500
+        "total": 57500,
+        "guerrilla_amt": 0
       }
     },
     "머나": {
@@ -148194,7 +148495,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "유로삐": {
@@ -148273,7 +148575,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "엘라떼": {
@@ -148334,7 +148637,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "채푸들": {
@@ -148413,7 +148717,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "돌멩이가될거야": {
@@ -148474,7 +148779,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "삼현맘": {
@@ -148553,7 +148859,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "수퍼짠돌이": {
@@ -148632,7 +148939,8 @@
         "acha": true,
         "geun": false,
         "guerrilla": false,
-        "total": 45000
+        "total": 45000,
+        "guerrilla_amt": 0
       }
     },
     "라니": {
@@ -148711,7 +149019,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "유이랑": {
@@ -148772,7 +149081,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "웰치스포도맛": {
@@ -148833,7 +149143,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "조심씨": {
@@ -148912,7 +149223,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "Limmn": {
@@ -148991,7 +149303,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "가리": {
@@ -149070,7 +149383,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "엘프": {
@@ -149149,7 +149463,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "수윗홈": {
@@ -149228,7 +149543,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "당고퇴끼": {
@@ -149306,8 +149622,9 @@
         "best": false,
         "acha": false,
         "geun": true,
-        "guerrilla": false,
-        "total": 35000
+        "guerrilla": true,
+        "total": 45000,
+        "guerrilla_amt": 10000
       }
     },
     "이뭉": {
@@ -149386,7 +149703,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "햄냐햄냐": {
@@ -149465,7 +149783,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "김망상": {
@@ -149526,7 +149845,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "뚜기": {
@@ -149587,7 +149907,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "모몽개": {
@@ -149666,7 +149987,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "최깡": {
@@ -149745,7 +150067,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "림조": {
@@ -149824,7 +150147,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "민고요": {
@@ -149885,7 +150209,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "Rachel": {
@@ -149964,7 +150289,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "유진": {
@@ -150043,7 +150369,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "달로": {
@@ -150122,7 +150449,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "heony": {
@@ -150183,7 +150511,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "알뜰살뜰언니": {
@@ -150262,7 +150591,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "엘렌17": {
@@ -150341,7 +150671,8 @@
         "acha": true,
         "geun": false,
         "guerrilla": false,
-        "total": 45000
+        "total": 45000,
+        "guerrilla_amt": 0
       }
     },
     "제주도낑깡": {
@@ -150419,8 +150750,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 37500
+        "guerrilla": true,
+        "total": 52500,
+        "guerrilla_amt": 15000
       }
     },
     "말랑콩알이": {
@@ -150499,7 +150831,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 75000
+        "total": 75000,
+        "guerrilla_amt": 0
       }
     },
     "봄아씨": {
@@ -150578,7 +150911,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "가리봉봉": {
@@ -150657,7 +150991,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "톨이": {
@@ -150736,7 +151071,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "설탕이발소": {
@@ -150814,8 +151150,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 25000
+        "guerrilla": true,
+        "total": 35000,
+        "guerrilla_amt": 10000
       }
     },
     "쭈말": {
@@ -150894,7 +151231,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "피아노맨": {
@@ -150972,8 +151310,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 25000
+        "guerrilla": true,
+        "total": 35000,
+        "guerrilla_amt": 10000
       }
     },
     "또디맘": {
@@ -151052,7 +151391,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "열우": {
@@ -151131,7 +151471,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "부산고니": {
@@ -151210,7 +151551,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "빛이나는솔로": {
@@ -151289,7 +151631,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "Kitty": {
@@ -151350,7 +151693,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "원쿵이": {
@@ -151411,7 +151755,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "앙꼬": {
@@ -151481,7 +151826,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "속이꽉찬애기만두": {
@@ -151560,7 +151906,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "셔니이니": {
@@ -151639,7 +151986,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 75000
+        "total": 75000,
+        "guerrilla_amt": 0
       }
     },
     "끼끼": {
@@ -151700,7 +152048,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "츄카츄": {
@@ -151779,7 +152128,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "HAZ0": {
@@ -151858,7 +152208,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "멕시코66": {
@@ -151937,7 +152288,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "로파이": {
@@ -152016,7 +152368,8 @@
         "acha": true,
         "geun": false,
         "guerrilla": false,
-        "total": 45000
+        "total": 45000,
+        "guerrilla_amt": 0
       }
     },
     "맥스라기": {
@@ -152095,7 +152448,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "디티디": {
@@ -152174,7 +152528,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "인사하는다람쥐": {
@@ -152253,7 +152608,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "만추니": {
@@ -152332,7 +152688,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "원스어게인": {
@@ -152411,7 +152768,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "울짝팡": {
@@ -152490,7 +152848,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "체릿슈": {
@@ -152569,7 +152928,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "hani77": {
@@ -152630,7 +152990,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "볼캄": {
@@ -152691,7 +153052,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "델리케이트": {
@@ -152752,7 +153114,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "갱돌": {
@@ -152813,7 +153176,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "oeonlu": {
@@ -152874,7 +153238,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "경제도슨트": {
@@ -152953,7 +153318,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "sloweh.i": {
@@ -153014,7 +153380,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "ssolsmommy": {
@@ -153075,7 +153442,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "아띠": {
@@ -153154,7 +153522,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "곰구마": {
@@ -153215,7 +153584,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "우유엔죠리퐁": {
@@ -153294,7 +153664,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 75000
+        "total": 75000,
+        "guerrilla_amt": 0
       }
     },
     "쨕쨕박수": {
@@ -153373,7 +153744,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "Mein_czech": {
@@ -153452,7 +153824,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "릴리": {
@@ -153531,7 +153904,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 87500
+        "total": 87500,
+        "guerrilla_amt": 0
       }
     },
     "지니": {
@@ -153610,7 +153984,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "균지": {
@@ -153689,7 +154064,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "마천": {
@@ -153759,7 +154135,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "와다닥": {
@@ -153838,7 +154215,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "제리": {
@@ -153917,7 +154295,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "김찍": {
@@ -153996,7 +154375,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "닌딩동닌자": {
@@ -154057,7 +154437,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "kong2": {
@@ -154136,7 +154517,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "슈키": {
@@ -154197,7 +154579,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "냐냐냥ㅎㅎ": {
@@ -154276,7 +154659,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "코코": {
@@ -154354,8 +154738,9 @@
         "best": false,
         "acha": false,
         "geun": false,
-        "guerrilla": false,
-        "total": 37500
+        "guerrilla": true,
+        "total": 52500,
+        "guerrilla_amt": 15000
       }
     },
     "쭈선생": {
@@ -154416,7 +154801,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "순이누나": {
@@ -154495,7 +154881,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "호랑나비기운이솟아나요": {
@@ -154574,7 +154961,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "조뺑이": {
@@ -154653,7 +155041,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "먕먕먕먕": {
@@ -154732,7 +155121,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "귤밭": {
@@ -154811,7 +155201,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "숭늉": {
@@ -154890,7 +155281,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "쭈제비": {
@@ -154969,7 +155361,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "부이주민": {
@@ -155048,7 +155441,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "펌킨박": {
@@ -155118,7 +155512,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "소니헤이": {
@@ -155188,7 +155583,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "모터위켄드": {
@@ -155249,7 +155645,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "동그리": {
@@ -155328,7 +155725,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "로지안": {
@@ -155389,7 +155787,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "도쿨쿨": {
@@ -155468,7 +155867,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "완두사랑": {
@@ -155529,7 +155929,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "룽지": {
@@ -155608,7 +156009,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "댓요등장": {
@@ -155669,7 +156071,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "lovemay": {
@@ -155730,7 +156133,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "프로여행러": {
@@ -155809,7 +156213,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "뚜뚜": {
@@ -155888,7 +156293,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "와압": {
@@ -155949,7 +156355,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "언니만믿어": {
@@ -156028,7 +156435,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "요즘남편없던아빠": {
@@ -156107,7 +156515,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "도리몽": {
@@ -156186,7 +156595,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "꿀돼나니": {
@@ -156265,7 +156675,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "큨큨큨뮴": {
@@ -156326,7 +156737,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "꼼지락쑥": {
@@ -156405,7 +156817,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "아니아놔그란데": {
@@ -156484,7 +156897,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "만두냠": {
@@ -156563,7 +156977,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "가제트꼬냉": {
@@ -156642,7 +157057,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "자두가좋아": {
@@ -156721,7 +157137,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "가보자고": {
@@ -156791,7 +157208,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "해삐": {
@@ -156870,7 +157288,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "영뽀또": {
@@ -156949,7 +157368,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "체육부장": {
@@ -157028,7 +157448,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "아융미": {
@@ -157107,7 +157528,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "꿈별": {
@@ -157186,7 +157608,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "배고파무새": {
@@ -157265,7 +157688,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "뭉망": {
@@ -157344,7 +157768,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "설빛": {
@@ -157423,7 +157848,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 87500
+        "total": 87500,
+        "guerrilla_amt": 0
       }
     },
     "209이든": {
@@ -157502,7 +157928,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 87500
+        "total": 87500,
+        "guerrilla_amt": 0
       }
     },
     "안냐잉": {
@@ -157581,7 +158008,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "hey_jane1031": {
@@ -157660,7 +158088,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 87500
+        "total": 87500,
+        "guerrilla_amt": 0
       }
     },
     "어쩌다책": {
@@ -157721,7 +158150,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "찌니": {
@@ -157800,7 +158230,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 75000
+        "total": 75000,
+        "guerrilla_amt": 0
       }
     },
     "블랙하양임": {
@@ -157879,7 +158310,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "리루짱": {
@@ -157940,7 +158372,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "입다문개구리": {
@@ -158019,7 +158452,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "푸딩": {
@@ -158098,7 +158532,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "햄토리": {
@@ -158177,7 +158612,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "다채맘": {
@@ -158256,7 +158692,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "존디": {
@@ -158334,8 +158771,9 @@
         "best": false,
         "acha": false,
         "geun": true,
-        "guerrilla": false,
-        "total": 47500
+        "guerrilla": true,
+        "total": 57500,
+        "guerrilla_amt": 10000
       }
     },
     "inseeng": {
@@ -158414,7 +158852,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "DRDR": {
@@ -158475,7 +158914,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "마리태": {
@@ -158554,7 +158994,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "융드벤처": {
@@ -158633,7 +159074,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "비마이영": {
@@ -158712,7 +159154,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "겸이": {
@@ -158791,7 +159234,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "꼬로로": {
@@ -158870,7 +159314,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "숩멍": {
@@ -158949,7 +159394,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "sxuzxeon": {
@@ -159028,7 +159474,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "히도": {
@@ -159107,7 +159554,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "브랜드한장": {
@@ -159186,7 +159634,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "베리블루베리": {
@@ -159247,7 +159696,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "나는야뽀로로리": {
@@ -159326,7 +159776,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "이겨냅니다": {
@@ -159405,7 +159856,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "새우모자": {
@@ -159484,7 +159936,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "koji12": {
@@ -159545,7 +159998,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "조묘밍": {
@@ -159606,7 +160060,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "도파민중독녀": {
@@ -159685,7 +160140,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "김가비": {
@@ -159764,7 +160220,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "에이사": {
@@ -159843,7 +160300,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "돌맹구": {
@@ -159922,7 +160380,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "보리": {
@@ -160001,7 +160460,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "스마티나": {
@@ -160062,7 +160522,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "맑은체리": {
@@ -160141,7 +160602,8 @@
         "acha": true,
         "geun": false,
         "guerrilla": false,
-        "total": 45000
+        "total": 45000,
+        "guerrilla_amt": 0
       }
     },
     "토마토": {
@@ -160220,7 +160682,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "유나나킥": {
@@ -160299,7 +160762,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "egprim": {
@@ -160378,7 +160842,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "김쭈돌": {
@@ -160457,7 +160922,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "땅콩": {
@@ -160536,7 +161002,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "버거킹어니언링": {
@@ -160615,7 +161082,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "꼭지안": {
@@ -160694,7 +161162,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 35000
+        "total": 35000,
+        "guerrilla_amt": 0
       }
     },
     "샛별산책": {
@@ -160773,7 +161242,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "레드니코": {
@@ -160852,7 +161322,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "고냥": {
@@ -160931,7 +161402,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "아진": {
@@ -161010,7 +161482,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "스윗맘입니다": {
@@ -161089,7 +161562,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "우슴": {
@@ -161150,7 +161624,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "옐리의재테크하루": {
@@ -161229,7 +161704,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "NCT지성짱팬": {
@@ -161308,7 +161784,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "삶을편집하는에디나": {
@@ -161387,7 +161864,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "[콘텐츠]글수저": {
@@ -161448,7 +161926,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "리틀콤마": {
@@ -161527,7 +162006,8 @@
         "acha": false,
         "geun": true,
         "guerrilla": false,
-        "total": 47500
+        "total": 47500,
+        "guerrilla_amt": 0
       }
     },
     "[리액션]jungwoo0564": {
@@ -161606,7 +162086,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     },
     "낭만행볶기": {
@@ -161685,7 +162166,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 37500
+        "total": 37500,
+        "guerrilla_amt": 0
       }
     },
     "Easyhan_이지한": {
@@ -161764,7 +162246,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "Haddo": {
@@ -161825,7 +162308,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 0
+        "total": 0,
+        "guerrilla_amt": 0
       }
     },
     "teencat2": {
@@ -161904,7 +162388,8 @@
         "acha": false,
         "geun": false,
         "guerrilla": false,
-        "total": 25000
+        "total": 25000,
+        "guerrilla_amt": 0
       }
     }
   },
