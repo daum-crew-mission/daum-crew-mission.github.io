@@ -163,7 +163,8 @@ h1{font-size:20px;font-weight:700;color:#2D2A6E}
     <div class="month-tabs">
       <div class="mt-btn" id="mt-apr" onclick="setMonthTab('apr')">4월<br><small style="font-size:10px;font-weight:400">1~2주차</small></div>
       <div class="mt-btn" id="mt-may" onclick="setMonthTab('may')">5월<br><small style="font-size:10px;font-weight:400">3~6주차</small></div>
-      <div class="mt-btn on" id="mt-jun" onclick="setMonthTab('jun')">6월<br><small style="font-size:10px;font-weight:400">7~10주차</small></div>
+      <div class="mt-btn" id="mt-jun" onclick="setMonthTab('jun')">6월<br><small style="font-size:10px;font-weight:400">7~10주차</small></div>
+      <div class="mt-btn on" id="mt-jul" onclick="setMonthTab('jul')">7월<br><small style="font-size:10px;font-weight:400">11주차~</small></div>
     </div>
 
     <!-- 4월 섹션 (wk1~wk2) -->
@@ -181,8 +182,13 @@ h1{font-size:20px;font-weight:700;color:#2D2A6E}
     </div>
 
     <!-- 6월 섹션 (wk7~wk10) -->
-    <div id="sec-jun" style="display:block">
+    <div id="sec-jun" style="display:none">
       <div id="jun-content"></div>
+    </div>
+
+    <!-- 7월 섹션 (wk11~) -->
+    <div id="sec-jul" style="display:block">
+      <div id="jul-content"></div>
     </div>
 
     <div class="rcumul-bar">
@@ -343,18 +349,38 @@ function renderReward(rw){
   }
   document.getElementById('jun-content').innerHTML=junHtml;
 
+  // 7월 (wk11~14) - 진행중이면 데이터 표시, 없으면 준비중
+  var julWks=[];
+  for(var u=11;u<=14;u++){if(rw['wk'+u])julWks.push(u);}
+  var julHtml='';
+  if(julWks.length>0){
+    var julTabs='',julCont='';
+    for(var ui=0;ui<julWks.length;ui++){
+      var un=julWks[ui];
+      julTabs+='<div class="rtab" id="rtab'+un+'" onclick="setRwkTab('+un+')">'+un+'주차<br><small style="font-size:10px;font-weight:400">'+(W[un-1]||'')+'</small></div>';
+      julCont+='<div id="rwk'+un+'" style="display:none">'+makeRwkRows(rw,un)+'<div class="rwk-total"><div class="rwk-total-label">'+un+'주차 합계</div><div class="rwk-total-amt">'+fmt((rw['wk'+un]||{}).total||0)+'</div></div></div>';
+    }
+    julHtml='<div class="rtabs" id="rtabs-jul">'+julTabs+'</div><div id="rwk-container-jul">'+julCont+'</div>';
+    var jul=0;for(var uk=11;uk<=14;uk++){jul+=((rw['wk'+uk]||{}).total||0);}
+    julHtml+='<div class="rmonth-bar"><div class="rmonth-label">7월 합계 (11주차~)</div><div class="rmonth-amt">'+fmt(jul)+'</div></div>';
+    setTimeout(function(){setRwkTab(julWks[julWks.length-1]);},0);
+  } else {
+    julHtml='<div class="jun-pending">🌱 7월 미션 준비중이에요!<br><b>11주차(6/29~7/5)</b>부터 활동 내역이 반영됩니다.</div>';
+  }
+  document.getElementById('jul-content').innerHTML=julHtml;
+
   // 누적
-  var lastWk=0;for(var i=1;i<=10;i++){if(rw['wk'+i])lastWk=i;}
+  var lastWk=0;for(var i=1;i<=14;i++){if(rw['wk'+i])lastWk=i;}
   document.getElementById('rcumul-label').textContent='1~'+lastWk+'주차 전체 누적 리워드';
   document.getElementById('rcumul').textContent=fmt(rw.cumul||0);
 
-  // 기본 탭: 6월
-  setMonthTab('jun');
+  // 기본 탭: 7월
+  setMonthTab('jul');
 }
 
 function setMonthTab(m){
   curMonthTab=m;
-  ['apr','may','jun'].forEach(function(t){
+  ['apr','may','jun','jul'].forEach(function(t){
     document.getElementById('mt-'+t).classList.toggle('on',t===m);
     document.getElementById('sec-'+t).style.display=t===m?'block':'none';
   });
@@ -363,6 +389,7 @@ function setMonthTab(m){
   if(m==='apr'){var aw=[];for(var i=1;i<=2;i++){if(rw['wk'+i])aw.push(i);}if(aw.length)setRwkTab(aw[aw.length-1]);}
   else if(m==='may'){var mw=[];for(var i=3;i<=6;i++){if(rw['wk'+i])mw.push(i);}if(mw.length)setRwkTab(mw[mw.length-1]);}
   else if(m==='jun'){var jw=[];for(var i=7;i<=10;i++){if(rw['wk'+i])jw.push(i);}if(jw.length)setRwkTab(jw[jw.length-1]);}
+  else if(m==='jul'){var uw=[];for(var i=11;i<=14;i++){if(rw['wk'+i])uw.push(i);}if(uw.length)setRwkTab(uw[uw.length-1]);}
 }
 
 function setRwkTab(t){
