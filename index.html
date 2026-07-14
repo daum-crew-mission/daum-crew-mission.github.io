@@ -191,6 +191,10 @@ h1{font-size:20px;font-weight:700;color:#2D2A6E}
       <div id="jul-content"></div>
     </div>
 
+    <div class="rmonth-bar" id="rseason-bar" style="display:none;background:#FFF7E6">
+      <div class="rmonth-label" style="color:#B8860B">👑 시즌 베스트 상금</div>
+      <div class="rmonth-amt" id="rseason" style="color:#B8860B">-</div>
+    </div>
     <div class="rcumul-bar">
       <div><div class="rcumul-label" id="rcumul-label">전체 누적 리워드</div></div>
       <div class="rcumul-amt" id="rcumul">-</div>
@@ -373,6 +377,9 @@ function renderReward(rw){
   var lastWk=0;for(var i=1;i<=14;i++){if(rw['wk'+i])lastWk=i;}
   document.getElementById('rcumul-label').textContent='1~'+lastWk+'주차 전체 누적 리워드';
   document.getElementById('rcumul').textContent=fmt(rw.cumul||0);
+  var sb=rw.season_best||0;
+  document.getElementById('rseason-bar').style.display=sb>0?'flex':'none';
+  if(sb>0)document.getElementById('rseason').textContent='+'+fmt(sb);
 
   // 기본 탭: 7월
   setMonthTab('jul');
